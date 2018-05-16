@@ -14,10 +14,11 @@
 	<form id="form1" runat="server">
 	<div class ="panel-img">
 		<img src="images/panel.png" />
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpecialCoffeInternationalConnectionString %>" EnableViewState="False" SelectCommand="sp_verificar_customer_log" SelectCommandType="StoredProcedure">
+		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpecialCoffeInternationalConnectionString %>" EnableViewState="False" SelectCommand="sp_verificar_customer_log" SelectCommandType="StoredProcedure" OnSelecting="SqlDataSource1_Selecting">
 			<SelectParameters>
 				<asp:ControlParameter ControlID="txtEmail" Name="email" PropertyName="Text" Type="String" />
 				<asp:ControlParameter ControlID="txtPass" Name="pass" PropertyName="Text" Type="String" />
+				<asp:SessionParameter Name="userName" SessionField="usuario" Type="String" />
 			</SelectParameters>
 		</asp:SqlDataSource>
 	</div>

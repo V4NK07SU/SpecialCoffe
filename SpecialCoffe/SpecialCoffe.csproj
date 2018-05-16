@@ -78,6 +78,7 @@
     <Content Include="Blog.aspx" />
     <Content Include="cerrar.aspx" />
     <Content Include="Contact.aspx" />
+    <Content Include="crearProducto.aspx" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
@@ -2912,6 +2913,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="crearProducto.aspx.cs">
+      <DependentUpon>crearProducto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="crearProducto.aspx.designer.cs">
+      <DependentUpon>crearProducto.aspx</DependentUpon>
     </Compile>
     <Compile Include="customers.cs">
       <DependentUpon>Model1.tt</DependentUpon>
