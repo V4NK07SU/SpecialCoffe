@@ -14,7 +14,7 @@
 			<asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=SpecialCoffeInternationalEntities2" DefaultContainerName="SpecialCoffeInternationalEntities2" EnableDelete="True" EnableInsert="True" EnableUpdate="True" EntitySetName="customers">
 			</asp:EntityDataSource>
 
-			<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="cerrar.aspx">cerrar sesion</asp:HyperLink>
+			<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="cerrar.aspx">cerrar seson</asp:HyperLink>
         	<asp:GridView ID="GridView1" runat="server" AllowPaging="True" AutoGenerateColumns="False" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" DataKeyNames="Id,UserName" DataSourceID="EntityDataSource1" GridLines="Horizontal">
 				<Columns>
 					<asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />

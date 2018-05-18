@@ -11,13 +11,14 @@
 						
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-							Lo Nuevo
+							Lo Nue111
+
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
 							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
+								Comprar A1
 							</a>
 						</div>
 					</div>
