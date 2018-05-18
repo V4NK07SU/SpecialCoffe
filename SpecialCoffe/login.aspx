@@ -10,7 +10,7 @@
     <title>Login</title>
 
 </head>
-<body style=" background-size:cover; background-image:url('images/login3.jpeg')">
+<body style=" background-size:cover; background-image:url('images/fondoLogin.jpg')">
 	<form id="form1" runat="server">
 	<div class ="panel-img">
 		<img src="images/panel.png" />
@@ -26,34 +26,43 @@
       	
       	<!-- User Login Panel Start Here -->
 		<div>
-			<div style="position: absolute; z-index: 1" id="layer2" ><div class="modal-body" style="margin:30px 0px 0px 400px">
+			<div style="position: absolute; z-index: 1" id="layer2" ><div class="modal-body" style="margin:10px 10px 10px 400px; top: 0px; left: 0px; height: 323px;">
               <div class="row">
                   <div class="col-xs-6">
                       <div>
                           <div id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                              <label> Iniciar sesión</label>
                               <div class="form-group">
+                              <br/>
+                                  
+                                  
                                   <label for="username" class="control-label">Email</label>
-                                  <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+                                  <asp:TextBox ID="txtEmail" runat="server" Width="200px"></asp:TextBox>
+                                      
                                   <span class="help-block"></span>
+                                      
                               </div>
                               <div class="form-group">
-                                  <label for="password" class="control-label">Password</label>
+                                  <label for="password" class="control-label">Contraseña</label>
                                 <%-- < <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password"/>
                                  --%> 
-								  <asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+								  <asp:TextBox ID="txtPass" runat="server" TextMode="Password" Width="200px"></asp:TextBox>
 
 								  <span class="help-block"></span>
                               </div>
-                        
-							  <asp:Button ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" />
+                              <p>
+							  <asp:Button ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="100px" />
 
-                              <%--<button type="submit" class="btn btn-success btn-block">Login</button>--%>
-                              <a href="/forgot/" class="btn btn-default btn-block">Forgot Password</a>
+                                  <a href="/forgot/" class="btn btn-default btn-block">Recuperar cuenta</a>
+                                  <%--<button type="submit" class="btn btn-success btn-block">Login</button>--%>
+                              </p>
+                              <a href="register.aspx" class="btn btn-info btn-block">Registrarme</a>
+                                  
                           </div>
                       </div>
                   </div>
                   <div class="col-xs-6">
-                      <p class="lead">Register now for <span class="text-success">FREE</span></p>
+                      
                     <%--  <ul class="list-unstyled">
                           <li><span class="fa fa-check text-success" style="color:#FFFFFF;font-size:14px">Learn Java To .Net Conectivity</span></li>
                           <li><span class="fa fa-check text-success" style="color:#FFFFFF;font-size:14px">Learn Using Steps</span></li>
@@ -61,7 +70,7 @@
                           <li><span class="fa fa-check text-success" style="color:#FFFFFF;font-size:14px">Connect With Asp.net</span></li>
                           <li><span class="fa fa-check text-success" style="color:#FFFFFF;font-size:14px">Free Example</span></li>
                       </ul>--%>
-                      <p><a href="register.aspx" class="btn btn-info btn-block">Registrarme</a></p>
+                      
                   </div>
               </div>
           </div>
