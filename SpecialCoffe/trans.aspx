@@ -5,6 +5,10 @@
 <html>
 <head runat="server">
 
+    <div class ="panel-img">
+		<img src="images/panel.png" />
+
+
     <title></title>
 
 	<meta charset="UTF-8">
@@ -40,21 +44,27 @@
     <form id="form1" runat="server">
         <div>
 			<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-							Lo Nuevo
-						</h2>
+							&nbsp;</h2>
+            
+            <asp:Label runat="server"
+                Font-Bold="True"
+                ForeColor="#000000"
+                Font-Size="20"                
+                Text="Crear Cuenta"
+                ></asp:Label>
+
+            
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
 							<a href="register.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Ofrecer Producto
+								Vendedor
 							</a>
 						</div>
 			<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
 							<a href="RegistroBuyer.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Empresa
-							</a>
-						</div>
+								C</a><a href="RegistroBuyer.aspx">omprador</a></div>
         </div>
     </form>
 </body>
