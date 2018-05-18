@@ -76,6 +76,12 @@
     <Content Include="admin.aspx" />
     <Content Include="Blog-Detail.aspx" />
     <Content Include="Blog.aspx" />
+    <Content Include="Blog_Barista.aspx" />
+    <Content Include="Blog_Barista2.aspx" />
+    <Content Include="Blog_Catacion.aspx" />
+    <Content Include="Blog_Catacion2.aspx" />
+    <Content Include="Blog_OrigenCafe.aspx" />
+    <Content Include="Blog_OrigenCafe2.aspx" />
     <Content Include="cerrar.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="crearProducto.aspx" />
@@ -2898,6 +2904,48 @@
     </Compile>
     <Compile Include="Blog.aspx.designer.cs">
       <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_Barista.aspx.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog_Barista.aspx.designer.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_Barista2.aspx.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog_Barista2.aspx.designer.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_Catacion.aspx.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog_Catacion.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_Catacion2.aspx.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog_Catacion2.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_OrigenCafe.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog_OrigenCafe.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog_OrigenCafe2.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Blog_OrigenCafe2.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe2.aspx</DependentUpon>
     </Compile>
     <Compile Include="cerrar.aspx.cs">
       <DependentUpon>cerrar.aspx</DependentUpon>
