@@ -6,22 +6,45 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <style type="text/css">
+        .auto-style1 {
+            height: 26px;
+        }
+    </style>
 </head>
-<body>
+<body style=" background-size:cover; background-image:url('images/login3.jpeg')">
     <form id="form1" runat="server">
+
+        <div> 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <asp:Label runat="server"
+                Font-Bold="True"
+                ForeColor="#000000"
+                Font-Size="14"                
+                Text="Comprador"
+                ></asp:Label>
+
+            <br />
+            <br />
+
+        </div>
+
+
+
         <div>
-			<table style="width:400px;">
+            
+			<table style="width:400px";>
 				<tr>
 					<td class="auto-style1">
 						<asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
 					</td>
-					<td class="auto-style2">
+					<td class="auto-style1">
 						<asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
 					</td>
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblApellido" runat="server" Text="Apellido"></asp:Label>
+						<asp:Label ID="lblApellido" runat="server" Text="Apellidos"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
@@ -29,7 +52,7 @@
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblTelefono" runat="server" Text="Telefono"></asp:Label>
+						<asp:Label ID="lblTelefono" runat="server" Text="Teléfono"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtTelefono" runat="server"></asp:TextBox>
@@ -37,7 +60,7 @@
 				</tr>
 					<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblemail" runat="server" Text="email"></asp:Label>
+						<asp:Label ID="lblemail" runat="server" Text="Email"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
@@ -70,10 +93,10 @@
 			
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblpass" runat="server" Text="contraseña"></asp:Label>
+						<asp:Label ID="lblpass" runat="server" Text="Contraseña"></asp:Label>
 					</td>
 					<td class="auto-style2">
-						<asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+						<asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
 					</td>
 				</tr>
 				<tr>

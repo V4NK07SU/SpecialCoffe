@@ -26,37 +26,51 @@
       	
       	<!-- User Login Panel Start Here -->
 		<div>
-			<div style="position: absolute; z-index: 1" id="layer2" ><div class="modal-body" style="margin:10px 10px 10px 400px; top: 0px; left: 0px; height: 323px;">
+			<div style="position: absolute; z-index: 1" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 400px; top: 0px; left: 0px; height: 323px;">
               <div class="row">
-                  <div class="col-xs-6">
+                  <div class="col-xs-11">
                       <div>
                           <div id="loginForm" method="POST" action="/login/" novalidate="novalidate">
-                              <label> Iniciar sesión</label>
-                              <div class="form-group">
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <asp:Label runat="server"
+                Font-Bold="True"
+                ForeColor="#000000"
+                Font-Size="12"                
+                Text="Iniciar sesión"
+                ></asp:Label>
+                              <br />
                               <br/>
+                              <div class="form-group">
+                              
                                   
                                   
-                                  <label for="username" class="control-label">Email</label>
+                                  <label for="username" class="control-label">Email
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
+                                  </label>
                                   <asp:TextBox ID="txtEmail" runat="server" Width="200px"></asp:TextBox>
+                                  
+                                  
+                                  
                                       
                                   <span class="help-block"></span>
                                       
                               </div>
                               <div class="form-group">
                                   <label for="password" class="control-label">Contraseña</label>
+                                  <asp:TextBox ID="txtPass" runat="server" TextMode="Password" Width="200px"></asp:TextBox>
                                 <%-- < <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password"/>
                                  --%> 
-								  <asp:TextBox ID="txtPass" runat="server" TextMode="Password" Width="200px"></asp:TextBox>
+								  
 
 								  <span class="help-block"></span>
                               </div>
-                              <p>
-							  <asp:Button ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="100px" />
+                              <p>							  
+							 <asp:Button  ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="130px" />
 
                                   <a href="/forgot/" class="btn btn-default btn-block">Recuperar cuenta</a>
                                   <%--<button type="submit" class="btn btn-success btn-block">Login</button>--%>
                               </p>
-                              <a href="register.aspx" class="btn btn-info btn-block">Registrarme</a>
+                              <a href="trans.aspx" class="btn btn-info btn-block" >Registrarme</a>
                                   
                           </div>
                       </div>
