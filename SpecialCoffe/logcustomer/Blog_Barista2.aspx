@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Principal.Master" AutoEventWireup="true" CodeBehind="Blog_Barista2.aspx.cs" Inherits="SpecialCoffe.Blog_Barista2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logcustomer/MasterCustomer.Master" AutoEventWireup="true" CodeBehind="Blog_Barista2.aspx.cs" Inherits="SpecialCoffe.logcustomer.Blog_Barista2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- content page -->
+      <!-- content page -->
 	<section class="bgwhite p-t-60">
 		<div class="container">
 			<div class="row">
@@ -11,7 +11,7 @@
 						<!-- item blog -->
 						<div class="item-blog p-b-80">
 							<a href="blog-detail.html" class="item-blog-img pos-relative dis-block hov-img-zoom">
-								<img src="images/pexels-photo-373639.jpeg" alt="IMG-BLOG">
+								<img src="/../images/pexels-photo-373639.jpeg" alt="IMG-BLOG">
 
 								<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">
 									16 May, 2018

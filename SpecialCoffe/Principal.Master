@@ -382,11 +382,9 @@
 					</p>
 
 					<div class="flex-m p-t-30">
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-pinterest-p"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+						<a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
+							<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
+							<a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
 					</div>
 				</div>
 			</div>

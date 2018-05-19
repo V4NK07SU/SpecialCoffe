@@ -72,6 +72,18 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logcustomer\Blog.aspx" />
+    <Content Include="logcustomer\Blog_Barista.aspx" />
+    <Content Include="logcustomer\Blog_Barista2.aspx" />
+    <Content Include="logcustomer\Blog_Catacion.aspx" />
+    <Content Include="logcustomer\Blog_Catacion2.aspx" />
+    <Content Include="logcustomer\Blog_OrigenCafe.aspx" />
+    <Content Include="logcustomer\Blog_OrigenCafe2.aspx" />
+    <Content Include="logcustomer\cart.html" />
+    <Content Include="logcustomer\Contact.aspx" />
+    <Content Include="logcustomer\About.aspx" />
+    <Content Include="logcustomer\Shop.aspx" />
+    <Content Include="logcustomer\Shop_detail.aspx" />
     <Content Include="About.aspx" />
     <Content Include="admin.aspx" />
     <Content Include="Blog-Detail.aspx" />
@@ -2879,6 +2891,83 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="logcustomer\Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista.aspx.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista.aspx.designer.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista2.aspx.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista2.aspx.designer.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion.aspx.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion2.aspx.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion2.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe2.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe2.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Shop_detail.aspx.cs">
+      <DependentUpon>Shop_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Shop_detail.aspx.designer.cs">
+      <DependentUpon>Shop_detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
