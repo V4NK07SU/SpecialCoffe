@@ -15,7 +15,7 @@
 				<div class="col-md-6 p-b-30">
 					<form class="leave-comment">
 						<h4 class="m-text26 p-b-36 p-t-15">
-							Envianos tus mensaje
+							Envianos tus mensajes
 						</h4>
 
 						<div class="bo4 of-hidden size15 m-b-20">
