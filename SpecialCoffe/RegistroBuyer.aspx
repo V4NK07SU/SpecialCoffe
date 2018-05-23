@@ -15,7 +15,7 @@
 <body style=" background-size:cover; background-image:url('images/login3.jpeg')">
     <form id="form1" runat="server">
 
-        <div">                             
+        <div>                             
         
         <div class ="panel-img" align="center">             
 		<img src="images/panel.png" />
