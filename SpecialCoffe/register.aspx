@@ -17,8 +17,24 @@
 </head>
 <body style=" background-size:cover; background-image:url('images/login3.jpeg')"">
     <form id="form1" runat="server">
-        <div>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div>                             
+        
+        <div class ="panel-img" align="center">             
+		<img src="images/panel.png" />
+            </div>
+            </div>
+           
+        
+        <div align="center">
+
+            <div style="position: absolute; z-index: 1; top: 125px; left: 176px; width: 200px; height: 377px;" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 350px; top: 9px; left: -150px; height: 323px; width: 210px;">
+
+                <br />
+                <br />
+                <div class="row">
+                    <div align="right" class="col-xs-11">
+
+
             <asp:Label runat="server"
                 Font-Bold="True"
                 ForeColor="#000000"
@@ -26,7 +42,13 @@
                 Text="Vendedor"
                 ></asp:Label>
 
-        	<table style="width:400px;">
+                        </div>
+
+                    </div>
+                <br />
+                <br />
+
+        	<table align="center" style="width:400px">
 				<tr>
 					<td class="auto-style1">
 						<asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
@@ -76,12 +98,15 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
+					<td colspan="2" style="position: relative ; z-index: 1; top: 10px; left:96px; width: 1000px; height: -400px;" id="layer3">
 						<asp:Button ID="btnRegistrarme" runat="server" OnClick="btnRegistrarme_Click" Text="Registrarme" />
 					</td>
 				</tr>
 			</table>
         </div>
+                </div>
+            </div>
+        
     </form>
 </body>
 </html>
