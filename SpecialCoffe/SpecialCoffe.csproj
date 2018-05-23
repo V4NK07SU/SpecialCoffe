@@ -72,6 +72,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cafeteras.aspx" />
+    <Content Include="logbuyer\About.aspx" />
+    <Content Include="logbuyer\Blog.aspx" />
+    <Content Include="logbuyer\Blog_Barista.aspx" />
+    <Content Include="logbuyer\Blog_Barista2.aspx" />
+    <Content Include="logbuyer\Blog_Catacion.aspx" />
+    <Content Include="logbuyer\Blog_Catacion2.aspx" />
+    <Content Include="logbuyer\Blog_OrienCafe2.aspx" />
+    <Content Include="logbuyer\Blog_OrigenCafe.aspx" />
+    <Content Include="logbuyer\Cafeteras.aspx" />
+    <Content Include="logbuyer\Comprar.aspx" />
+    <Content Include="logbuyer\Contact.aspx" />
+    <Content Include="logbuyer\index.aspx" />
+    <Content Include="logbuyer\Shop.aspx" />
+    <Content Include="logbuyer\Shop_detail.aspx" />
+    <Content Include="logcustomer\Blog.aspx" />
+    <Content Include="logcustomer\Blog_Barista.aspx" />
+    <Content Include="logcustomer\Blog_Barista2.aspx" />
+    <Content Include="logcustomer\Blog_Catacion.aspx" />
+    <Content Include="logcustomer\Blog_Catacion2.aspx" />
+    <Content Include="logcustomer\Blog_OrigenCafe.aspx" />
+    <Content Include="logcustomer\Blog_OrigenCafe2.aspx" />
+    <Content Include="logcustomer\Cafeteras.aspx" />
+    <Content Include="logcustomer\Comprar.aspx" />
+    <Content Include="logcustomer\Contact.aspx" />
+    <Content Include="logcustomer\About.aspx" />
+    <Content Include="logcustomer\Shop.aspx" />
+    <Content Include="logcustomer\Shop_detail.aspx" />
     <Content Include="About.aspx" />
     <Content Include="admin.aspx" />
     <Content Include="Blog-Detail.aspx" />
@@ -210,6 +238,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
     <Content Include="logcustomer\MasterCustomer.Master" />
+    <Content Include="logbuyer\MasterBuyer.Master" />
     <None Include="packages.config" />
     <Content Include="index.aspx" />
     <Content Include="js\bootstrap.js" />
@@ -2879,6 +2908,209 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cafeteras.aspx.cs">
+      <DependentUpon>cafeteras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cafeteras.aspx.designer.cs">
+      <DependentUpon>cafeteras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Barista.aspx.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Barista.aspx.designer.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Barista2.aspx.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Barista2.aspx.designer.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Catacion.aspx.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Catacion.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Catacion2.aspx.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog_Catacion2.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog_OrienCafe2.aspx.cs">
+      <DependentUpon>Blog_OrienCafe2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog_OrienCafe2.aspx.designer.cs">
+      <DependentUpon>Blog_OrienCafe2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Blog_OrigenCafe.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Blog_OrigenCafe.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Cafeteras.aspx.cs">
+      <DependentUpon>Cafeteras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Cafeteras.aspx.designer.cs">
+      <DependentUpon>Cafeteras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Comprar.aspx.cs">
+      <DependentUpon>Comprar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Comprar.aspx.designer.cs">
+      <DependentUpon>Comprar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\MasterBuyer.Master.cs">
+      <DependentUpon>MasterBuyer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\MasterBuyer.Master.designer.cs">
+      <DependentUpon>MasterBuyer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logbuyer\Shop_detail.aspx.cs">
+      <DependentUpon>Shop_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logbuyer\Shop_detail.aspx.designer.cs">
+      <DependentUpon>Shop_detail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista.aspx.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista.aspx.designer.cs">
+      <DependentUpon>Blog_Barista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista2.aspx.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Barista2.aspx.designer.cs">
+      <DependentUpon>Blog_Barista2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion.aspx.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion2.aspx.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_Catacion2.aspx.designer.cs">
+      <DependentUpon>Blog_Catacion2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe2.aspx.cs">
+      <DependentUpon>Blog_OrigenCafe2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Blog_OrigenCafe2.aspx.designer.cs">
+      <DependentUpon>Blog_OrigenCafe2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Cafeteras.aspx.cs">
+      <DependentUpon>Cafeteras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Cafeteras.aspx.designer.cs">
+      <DependentUpon>Cafeteras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Comprar.aspx.cs">
+      <DependentUpon>Comprar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Comprar.aspx.designer.cs">
+      <DependentUpon>Comprar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logcustomer\Shop_detail.aspx.cs">
+      <DependentUpon>Shop_detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logcustomer\Shop_detail.aspx.designer.cs">
+      <DependentUpon>Shop_detail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
