@@ -15,12 +15,29 @@
 <body style=" background-size:cover; background-image:url('images/login3.jpeg')">
     <form id="form1" runat="server">
 
-        <div> 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <div">                             
+        
+        <div class ="panel-img" align="center">             
+		<img src="images/panel.png" />
+            </div>
+            </div>
+           
+        
+        <div align="center">
+
+            <div style="position: absolute; z-index: 1; top: 125px; left: 176px; width: 200px; height: 377px;" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 350px; top: 9px; left: -150px; height: 323px; width: 210px;">
+
+                <div class="row">
+                    <div align="center" class="col-xs-11">
+
+
+
+        
+            
             <asp:Label runat="server"
                 Font-Bold="True"
                 ForeColor="#000000"
-                Font-Size="14"                
+                Font-Size="15"                
                 Text="Comprador"
                 ></asp:Label>
 
@@ -100,12 +117,17 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
+					<td colspan="2" align="center">
 						<asp:Button ID="btnRegistrarme" runat="server" OnClick="btnRegistrarme_Click" Text="Registrarme" />
 					</td>
 				</tr>
 			</table>
         </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            
     </form>
 </body>
 </html>
