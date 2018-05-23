@@ -172,11 +172,12 @@
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Herschel supply co 25l
+									<a href="Shop_detail.aspx" class="block2-name dis-block s-text3 p-b-5">
+										<asp:Label ID="lblpro" runat="server" Text=""></asp:Label>
 									</a>
 
 									<span class="block2-price m-text6 p-r-5">
+										aqui va el producto
 										$75.00
 									</span>
 								</div>

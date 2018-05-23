@@ -34,6 +34,12 @@ namespace SpecialCoffe
             Def.comando = new SqlCommand("sp_insertar_product", conectar);
             Def.comando.CommandType = CommandType.StoredProcedure;
 
+
+            SqlParameter insertfinca = new SqlParameter();
+            insertfinca.ParameterName = "@nombreFinca";
+            insertfinca.SqlDbType = SqlDbType.VarChar;
+            insertfinca.Value = txtNomFinca.Text;
+
             SqlParameter insertvari = new SqlParameter();
             insertvari.ParameterName = "@variedad";
             insertvari.SqlDbType = SqlDbType.VarChar;
@@ -85,6 +91,9 @@ namespace SpecialCoffe
             insertcat.SqlDbType = SqlDbType.Int;
             insertcat.Value = txtCategoria.Text;
 
+
+
+            Def.comando.Parameters.Add(insertfinca);
             Def.comando.Parameters.Add(insertvari);
             Def.comando.Parameters.Add(insertal);
             Def.comando.Parameters.Add(insertcar);
@@ -95,10 +104,11 @@ namespace SpecialCoffe
             Def.comando.Parameters.Add(insertmun);
             Def.comando.Parameters.Add(insertcli);
             Def.comando.Parameters.Add(insertcat);
+            
 
             Def.da = new SqlDataAdapter(Def.comando);
             Def.comando.ExecuteNonQuery();
-            Response.Redirect("site.Master");
+            Response.Redirect("logcustomer/index.aspx");
             conect.cerrarConexion();
 
         }

@@ -23,6 +23,15 @@
         	<table class="auto-style1">
 				<tr>
 					<td class="auto-style2">
+						<asp:Label ID="Label11" runat="server" Text="Nombre de la Finca"></asp:Label>
+					</td>
+					<td>
+						<asp:TextBox ID="txtNomFinca" runat="server"></asp:TextBox>
+					</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td class="auto-style2">
 						<asp:Label ID="Label1" runat="server" Text="Variedad del café"></asp:Label>
 					</td>
 					<td>
