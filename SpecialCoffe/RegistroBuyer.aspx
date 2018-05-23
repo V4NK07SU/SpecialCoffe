@@ -27,8 +27,9 @@
 
             <div style="position: absolute; z-index: 1; top: 125px; left: 176px; width: 200px; height: 377px;" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 350px; top: 9px; left: -150px; height: 323px; width: 210px;">
 
+                <br />
                 <div class="row">
-                    <div align="center" class="col-xs-11">
+                    <div align="right" class="col-xs-11">
 
 
 
@@ -116,9 +117,11 @@
 						<asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
 					</td>
 				</tr>
+                
 				<tr>
-					<td colspan="2" align="center">
-						<asp:Button ID="btnRegistrarme" runat="server" OnClick="btnRegistrarme_Click" Text="Registrarme" />
+					<td colspan="2" style="position: relative ; z-index: 1; top: 10px; left:168px; width: 1000px; height: -400px;" id="layer3">
+						
+                        <asp:Button ID="btnRegistrarme" runat="server" OnClick="btnRegistrarme_Click" Text="Registrarme" />
 					</td>
 				</tr>
 			</table>
