@@ -25,19 +25,18 @@
 	
       	
       	<!-- User Login Panel Start Here -->
-		<div>
-			<div style="position: absolute; z-index: 1" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 400px; top: 0px; left: 0px; height: 323px;">
+		<div align="center">
+			<div style="position: absolute; z-index: 1" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 480px; top: 0px; left: 0px; height: 323px;">
               <div class="row">
                   <div class="col-xs-11">
                       <div>
                           <div id="loginForm" method="POST" action="/login/" novalidate="novalidate">
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                               <asp:Label runat="server"
-                Font-Bold="True"
-                ForeColor="#000000"
-                Font-Size="12"                
-                Text="Iniciar sesión"
-                ></asp:Label>
+                            Font-Bold="True"
+                            ForeColor="#000000"
+                            Font-Size="12"                
+                            Text="Iniciar sesión"
+                            ></asp:Label>
                               <br />
                               <br/>
                               <div class="form-group">
@@ -45,7 +44,7 @@
                                   
                                   
                                   <label for="username" class="control-label">Email
-                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
+                                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp
                                   </label>
                                   <asp:TextBox ID="txtEmail" runat="server" Width="200px"></asp:TextBox>
                                   
@@ -64,9 +63,12 @@
 
 								  <span class="help-block"></span>
                               </div>
-                              <p>							  
-							 <asp:Button  ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="130px" />
+                              
+                              
+                              <p>						  							                               
+                                  <asp:Button  ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="130px" />
 
+                                 
                                   <a href="/forgot/" class="btn btn-default btn-block">Recuperar cuenta</a>
                                   <%--<button type="submit" class="btn btn-success btn-block">Login</button>--%>
                               </p>
