@@ -17,7 +17,7 @@
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
 							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
+								Comprar A1
 							</a>
 						</div>
 					</div>
@@ -34,7 +34,7 @@
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
 							<!-- Button -->
 							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
+								Comprar Ahorq
 							</a>
 						</div>
 					</div>
