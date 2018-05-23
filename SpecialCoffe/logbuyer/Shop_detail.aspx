@@ -50,7 +50,7 @@
 
 									<div class="header-cart-item-txt">
 										<a href="#" class="header-cart-item-name">
-											Converse All Star Hi Black Canvas
+											Converse All Star Hi Black Canva
 										</a>
 
 										<span class="header-cart-item-info">
