@@ -174,28 +174,7 @@
 		</div>
 	</header>
 
-	<!-- breadcrumb -->
-	<div class="bread-crumb bgwhite flex-w p-l-52 p-r-15 p-t-30 p-l-15-sm">
-		<a href="index.html" class="s-text16">
-			Home
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
-
-		<a href="product.html" class="s-text16">
-			Women
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
-
-		<a href="#" class="s-text16">
-			T-Shirt
-			<i class="fa fa-angle-right m-l-8 m-r-9" aria-hidden="true"></i>
-		</a>
-
-		<span class="s-text17">
-			Boxy T-Shirt with Roll Sleeve Detail
-		</span>
-	</div>
-
+	
 	<!-- Product Detail -->
 	<div class="container bgwhite p-t-35 p-b-80">
 		<div class="flex-w flex-sb">
@@ -204,21 +183,21 @@
 					<div class="wrap-slick3-dots"></div>
 
 					<div class="slick3">
-						<div class="item-slick3" data-thumb="images/thumb-item-01.jpg">
+						<div class="item-slick3" data-thumb="images/296888.jpeg">
 							<div class="wrap-pic-w">
-								<img src="images/product-detail-01.jpg" alt="IMG-PRODUCT">
+								<img src="images/photo-296888.jpeg" alt="IMG-PRODUCT">
 							</div>
 						</div>
 
-						<div class="item-slick3" data-thumb="images/thumb-item-02.jpg">
+						<div class="item-slick3" data-thumb="images/302898.jpeg">
 							<div class="wrap-pic-w">
-								<img src="images/product-detail-02.jpg" alt="IMG-PRODUCT">
+								<img src="images/photo-302898.jpeg" alt="IMG-PRODUCT">
 							</div>
 						</div>
 
-						<div class="item-slick3" data-thumb="images/thumb-item-03.jpg">
+						<div class="item-slick3" data-thumb="images/e-espresso-professional (1).jpg">
 							<div class="wrap-pic-w">
-								<img src="images/product-detail-03.jpg" alt="IMG-PRODUCT">
+								<img src="images/spresso-professional (2).jpg" alt="IMG-PRODUCT">
 							</div>
 						</div>
 					</div>
@@ -227,31 +206,30 @@
 
 			<div class="w-size14 p-t-30 respon5">
 				<h4 class="product-detail-name m-text16 p-b-13">
-					Boxy T-Shirt with Roll Sleeve Detail
+					MONROC CONTROL 2  CIRCRNA4SCR2TG
 				</h4>
 
 				<span class="m-text17">
-					$22
+					$220.000
 				</span>
 
 				<p class="s-text8 p-t-10">
-					Nulla eget sem vitae eros pharetra viverra. Nam vitae luctus ligula. Mauris consequat ornare feugiat.
+					Es ideal para pequeños cafés y restaurantes, donde se desee preparar un perfecto expresso, café con leche o incluso un capuccino
 				</p>
 
 				<!--  -->
 				<div class="p-t-33 p-b-60">
 					<div class="flex-m flex-w p-b-10">
 						<div class="s-text15 w-size15 t-center">
-							Size
+							Tamaño
 						</div>
 
 						<div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
 							<select class="selection-2" name="size">
-								<option>Choose an option</option>
-								<option>Size S</option>
-								<option>Size M</option>
-								<option>Size L</option>
-								<option>Size XL</option>
+								<option>Escoge una Opción</option>
+								<option>Tamaño S</option>
+								<option>Tamaño M</option>
+								<option>Tamaño L</option>
 							</select>
 						</div>
 					</div>
@@ -263,11 +241,11 @@
 
 						<div class="rs2-select2 rs3-select2 bo4 of-hidden w-size16">
 							<select class="selection-2" name="color">
-								<option>Choose an option</option>
-								<option>Gray</option>
-								<option>Red</option>
-								<option>Black</option>
-								<option>Blue</option>
+								<option>Escoje una Opción</option>
+								<option>Gris</option>
+								<option>Rojo</option>
+								<option>Negro</option>
+								<option>Azul</option>
 							</select>
 						</div>
 					</div>
@@ -289,7 +267,7 @@
 							<div class="btn-addcart-product-detail size9 trans-0-4 m-t-10 m-b-10">
 								<!-- Button -->
 								<button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-									Add to Cart
+									Añadir Compra
 								</button>
 							</div>
 						</div>
@@ -297,52 +275,69 @@
 				</div>
 
 				<div class="p-b-45">
-					<span class="s-text8 m-r-35">SKU: MUG-01</span>
-					<span class="s-text8">Categories: Mug, Design</span>
+					<span class="s-text8 m-r-35">Marca: MONROC</span>
+					<span class="s-text8">Serie: CIRCRNA4SCR2TG</span>
 				</div>
 
 				<!--  -->
 				<div class="wrap-dropdown-content bo6 p-t-15 p-b-14 active-dropdown-content">
 					<h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-						Description
+						Descripción
 						<i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
 						<i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
 					</h5>
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
+						 Es una eficaz máquina de café expreso que satisface todas las necesidaddes a la hora de preparar un delicioso expresso, de manera agil y sencilla. KLas funciones de fácil manejo de esta máquina han sido diseñadas por expertos y hábiles profesionales a partir de una tecnología contrastada, lo cual convierte a Monroc en una máquina fiable y robusta en la que se puede confiar.
 						</p>
 					</div>
 				</div>
 
 				<div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
 					<h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-						Additional information
+						Información Adicional
 						<i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
 						<i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
 					</h5>
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
+							Medidas: 66 x 53 x 43 cm (l x f x h)
+                            <p>
+                            Potencia: 3050 W
+                                <p>
+                            Caldera de cobre de 11.5 litros con intercambiador térmico por grupo y válvula de purga
+                                    <p>
+                            1 grifo de vapor
+                                        <p>
+                            1 grifo de agua caliente
+                                            <p>
+                            1 portafiltro de 1 taza y 2 de 2 tazas
+                                                <p>
+                            Latiguillo conexión a red de 0.55 m
+                                                    <p>
+                            Manguera de desagüe de 1.5 m
+                                                        <p>
+                            Motobomba volumétrica incorporada, con dos válvulas de retención y filtro de partículas sólidas
+                                                            <p>
+                            1 membrana limpia grupo
+                                                                <p>
+                            1 rejilla vaso alto por grupo (en formato vaso alto)
+                                                                    <p>
+                            Llenado automático de agua de la caldera
+                                                                        <p>
+                            Autolimpieza del grupo erogador
+                                                                            <p>
+                            Máquina con motobomba volumétrica incorporada, dotada de 2 válvulas de retención y filtro de pertículas sólidas
+                                                                                <p>
+                            Grupo de erogación con cámara de preinfusión directa
+                                                                                    <p>
+                            Desconexión automática de la resistencia por falta de agua (salva-resistencias)
 						</p>
 					</div>
 				</div>
 
-				<div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
-					<h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
-						Reviews (0)
-						<i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
-						<i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
-					</h5>
-
-					<div class="dropdown-content dis-none p-t-15 p-b-23">
-						<p class="s-text8">
-							Fusce ornare mi vel risus porttitor dignissim. Nunc eget risus at ipsum blandit ornare vel sed velit. Proin gravida arcu nisl, a dignissim mauris placerat
-						</p>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -353,7 +348,7 @@
 		<div class="container">
 			<div class="sec-title p-b-60">
 				<h3 class="m-text5 t-center">
-					Related Products
+					Productos Relacionados
 				</h3>
 			</div>
 
@@ -376,7 +371,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -409,7 +404,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -442,7 +437,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -475,7 +470,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -512,7 +507,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -545,7 +540,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -578,7 +573,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>
@@ -611,7 +606,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Add to Cart
+											Añadir Compra
 										</button>
 									</div>
 								</div>

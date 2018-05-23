@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    !-- content page -->
+    <!-- content page -->
 	<section class="bgwhite p-t-66 p-b-38">
 		<div class="container">
 			<div class="row">
@@ -58,7 +58,7 @@
 			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
 
 			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
+				<div class="w-full wrap-pic-w op-0-0"><img src="/../images/icons/video-16-9.jpg" alt="IMG"></div>
 				<div class="video-mo-01">
 					<iframe src="https://www.youtube.com/embed/4q9UafsiQ6k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
 				</div>

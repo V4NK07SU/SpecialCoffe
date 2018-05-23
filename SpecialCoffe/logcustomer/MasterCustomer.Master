@@ -77,7 +77,7 @@
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="index.aspx" class="logo">
-					<img src="/../images/icons/logo.png" alt="IMG-LOGO">
+					<img src="/../images/icons/logo8.png" alt="IMG-LOGO">
 				</a>
 
 				<!-- Menu -->
@@ -102,9 +102,6 @@
 
 							<li>
 								<a href="Contact.aspx">Contacto</a>
-							</li>
-							<li>
-								<a href="cart.html">cart</a>
 							</li>
 						</ul>
 					</nav>
@@ -402,7 +399,11 @@
 							Especial Clásico
 						</a>
 					</li>
-
+                    <li class="p-b-9">
+						<a href="Shop.aspx" class="s-text7">
+							Especial Unicó
+						</a>
+					</li>
 					
 				</ul>
 			</div>

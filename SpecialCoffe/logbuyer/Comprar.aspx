@@ -1,199 +1,22 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Cart</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--===============================================================================================-->
-    <link rel="icon" type="image/png" href="images/icons/favicon.png" />
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="fonts/themify/themify-icons.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="fonts/elegant-font/html-css/style.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
-    <!--===============================================================================================-->
-    <link rel="stylesheet" type="text/css" href="css/util.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <!--===============================================================================================-->
-</head>
-<body class="animsition">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Comprar.aspx.cs" Inherits="SpecialCoffe.logbuyer.Comprar" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <!-- Header -->
-    <header class="header1">
-        <!-- Header desktop -->
-        <div class="container-menu-header">
-            <div class="topbar">
-                <div class="topbar-social">
-                    <a href="#" class="topbar-social-item fa fa-facebook"></a>
-                    <a href="#" class="topbar-social-item fa fa-instagram"></a>
-                    <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-                    <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-                    <a href="#" class="topbar-social-item fa fa-youtube-play"></a>
-                </div>
-
-                <span class="topbar-child1">
-                    Free shipping for standard order over $100
-                </span>
-
-                <div class="topbar-child2">
-                    <span class="topbar-email">
-                        fashe@example.com
-                    </span>
-
-                    <div class="topbar-language rs1-select2">
-                        <select class="selection-1" name="time">
-                            <option>USD</option>
-                            <option>EUR</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wrap_header">
-                <!-- Logo -->
-                <a href="index.html" class="logo">
-                    <img src="/../images/icons/logo.png" alt="IMG-LOGO">
-                </a>
-
-                <!-- Menu -->
-                <div class="wrap_menu">
-                    <nav class="menu">
-                        <ul class="main_menu">
-                            <li>
-                                <a href="index.html">Home</a>
-                                <ul class="sub_menu">
-                                    <li><a href="index.html">Homepage V1</a></li>
-                                    <li><a href="home-02.html">Homepage V2</a></li>
-                                    <li><a href="home-03.html">Homepage V3</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="product.html">Shop</a>
-                            </li>
-
-                            <li class="sale-noti">
-                                <a href="product.html">Sale</a>
-                            </li>
-
-                            <li>
-                                <a href="cart.html">Features</a>
-                            </li>
-
-                            <li>
-                                <a href="blog.html">Blog</a>
-                            </li>
-
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
 
                 <!-- Header Icon -->
                 <div class="header-icons">
                     <a href="#" class="header-wrapicon1 dis-block">
-                        <img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
+                        <img src="/../images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
                     </a>
 
                     <span class="linedivide1"></span>
 
                     <div class="header-wrapicon2">
-                        <img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
+                        <img src="/../images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
                         <span class="header-icons-noti">0</span>
 
-                        <!-- Header cart noti -->
-                        <div class="header-cart header-dropdown">
-                            <ul class="header-cart-wrapitem">
-                                <li class="header-cart-item">
-                                    <div class="header-cart-item-img">
-                                        <img src="images/item-cart-01.jpg" alt="IMG">
-                                    </div>
-
-                                    <div class="header-cart-item-txt">
-                                        <a href="#" class="header-cart-item-name">
-                                            White Shirt With Pleat Detail Back
-                                        </a>
-
-                                        <span class="header-cart-item-info">
-                                            1 x $19.00
-                                        </span>
-                                    </div>
-                                </li>
-
-                                <li class="header-cart-item">
-                                    <div class="header-cart-item-img">
-                                        <img src="images/item-cart-02.jpg" alt="IMG">
-                                    </div>
-
-                                    <div class="header-cart-item-txt">
-                                        <a href="#" class="header-cart-item-name">
-                                            Converse All Star Hi Black Canvas
-                                        </a>
-
-                                        <span class="header-cart-item-info">
-                                            1 x $39.00
-                                        </span>
-                                    </div>
-                                </li>
-
-                                <li class="header-cart-item">
-                                    <div class="header-cart-item-img">
-                                        <img src="images/item-cart-03.jpg" alt="IMG">
-                                    </div>
-
-                                    <div class="header-cart-item-txt">
-                                        <a href="#" class="header-cart-item-name">
-                                            Nixon Porter Leather Watch In Tan
-                                        </a>
-
-                                        <span class="header-cart-item-info">
-                                            1 x $17.00
-                                        </span>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <div class="header-cart-total">
-                                Total: $75.00
-                            </div>
-
-                            <div class="header-cart-buttons">
-                                <div class="header-cart-wrapbtn">
-                                    <!-- Button -->
-                                    <a href="cart.html" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
-                                        View Cart
-                                    </a>
-                                </div>
-
-                                <div class="header-cart-wrapbtn">
-                                    <!-- Button -->
-                                    <a href="#" class="flex-c-m size1 bg1 bo-rad-20 hov1 s-text1 trans-0-4">
-                                        Check Out
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                
                     </div>
                 </div>
             </div>
@@ -339,7 +162,7 @@
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">Inicio</a>
                         <ul class="sub-menu">
                             <li><a href="index.html">Homepage V1</a></li>
                             <li><a href="home-02.html">Homepage V2</a></li>
@@ -349,27 +172,22 @@
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Shop</a>
+                        <a href="product.html">Tienda</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="product.html">Sale</a>
+                        <a href="product.html">Blog</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="cart.html">Features</a>
+                        <a href="cart.html">Nosotros</a>
                     </li>
 
                     <li class="item-menu-mobile">
-                        <a href="blog.html">Blog</a>
+                        <a href="blog.html">Contacto</a>
                     </li>
-
                     <li class="item-menu-mobile">
-                        <a href="about.html">About</a>
-                    </li>
-
-                    <li class="item-menu-mobile">
-                        <a href="contact.html">Contact</a>
+                        <a href="blog.html">Comprar</a>
                     </li>
                 </ul>
             </nav>
@@ -377,9 +195,9 @@
     </header>
 
     <!-- Title Page -->
-    <section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(images/heading-pages-01.jpg);">
+    <section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(/../images/pexels-photo.jpg);">
         <h2 class="l-text2 t-center">
-            Cart
+            Comprar
         </h2>
     </section>
 
@@ -392,20 +210,20 @@
                     <table class="table-shopping-cart">
                         <tr class="table-head">
                             <th class="column-1"></th>
-                            <th class="column-2">Product</th>
-                            <th class="column-3">Price</th>
-                            <th class="column-4 p-l-70">Quantity</th>
+                            <th class="column-2">Producto</th>
+                            <th class="column-3">Precio</th>
+                            <th class="column-4 p-l-70">Cantidad</th>
                             <th class="column-5">Total</th>
                         </tr>
 
                         <tr class="table-row">
                             <td class="column-1">
                                 <div class="cart-img-product b-rad-4 o-f-hidden">
-                                    <img src="images/item-10.jpg" alt="IMG-PRODUCT">
+                                    <img src="/../images/8.jpg" alt="IMG-PRODUCT">
                                 </div>
                             </td>
-                            <td class="column-2">Men Tshirt</td>
-                            <td class="column-3">$36.00</td>
+                            <td class="column-2">Frayed denim shorts</td>
+                            <td class="column-3">$15.90</td>
                             <td class="column-4">
                                 <div class="flex-w bo5 of-hidden w-size17">
                                     <button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
@@ -419,17 +237,17 @@
                                     </button>
                                 </div>
                             </td>
-                            <td class="column-5">$36.00</td>
+                            <td class="column-5">$15.90</td>
                         </tr>
 
                         <tr class="table-row">
                             <td class="column-1">
                                 <div class="cart-img-product b-rad-4 o-f-hidden">
-                                    <img src="images/item-05.jpg" alt="IMG-PRODUCT">
+                                    <img src="/../images/2.jpg" alt="IMG-PRODUCT">
                                 </div>
                             </td>
-                            <td class="column-2">Mug Adventure</td>
-                            <td class="column-3">$16.00</td>
+                            <td class="column-2">Denim jacket blue</td>
+                            <td class="column-3">$92.50</td>
                             <td class="column-4">
                                 <div class="flex-w bo5 of-hidden w-size17">
                                     <button class="btn-num-product-down color1 flex-c-m size7 bg8 eff2">
@@ -443,7 +261,7 @@
                                     </button>
                                 </div>
                             </td>
-                            <td class="column-5">$16.00</td>
+                            <td class="column-5">$92.50</td>
                         </tr>
                     </table>
                 </div>
@@ -452,13 +270,13 @@
             <div class="flex-w flex-sb-m p-t-25 p-b-25 bo8 p-l-35 p-r-60 p-lr-15-sm">
                 <div class="flex-w flex-m w-full-sm">
                     <div class="size11 bo4 m-r-10">
-                        <input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="coupon-code" placeholder="Coupon Code">
+                        <input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="coupon-code" placeholder="Codigo Cupon">
                     </div>
 
                     <div class="size12 trans-0-4 m-t-10 m-b-10 m-r-10">
                         <!-- Button -->
                         <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-                            Apply coupon
+                            Aplicar Cupon
                         </button>
                     </div>
                 </div>
@@ -466,7 +284,7 @@
                 <div class="size10 trans-0-4 m-t-10 m-b-10">
                     <!-- Button -->
                     <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-                        Update Cart
+                        Actualizar Cupon
                     </button>
                 </div>
             </div>
@@ -474,7 +292,7 @@
             <!-- Total -->
             <div class="bo9 w-size18 p-l-40 p-r-40 p-t-30 p-b-38 m-t-30 m-r-0 m-l-auto p-lr-15-sm">
                 <h5 class="m-text20 p-b-24">
-                    Cart Totals
+                    Comprar Total
                 </h5>
 
                 <!--  -->
@@ -484,31 +302,31 @@
                     </span>
 
                     <span class="m-text21 w-size20 w-full-sm">
-                        $39.00
+                        $10.840
                     </span>
                 </div>
 
                 <!--  -->
                 <div class="flex-w flex-sb bo10 p-t-15 p-b-20">
                     <span class="s-text18 w-size19 w-full-sm">
-                        Shipping:
+                        Envió:
                     </span>
 
                     <div class="w-size20 w-full-sm">
                         <p class="s-text8 p-b-23">
-                            There are no shipping methods available. Please double check your address, or contact us if you need any help.
+                            Llena la siguiente información para proceder con la compra
                         </p>
 
                         <span class="s-text19">
-                            Calculate Shipping
+                            Calcular Costos de Envió
                         </span>
 
                         <div class="rs2-select2 rs3-select2 rs4-select2 bo4 of-hidden w-size21 m-t-8 m-b-12">
                             <select class="selection-2" name="country">
-                                <option>Select a country...</option>
+                                <option>Seleccionar Pais    </option>
                                 <option>US</option>
                                 <option>UK</option>
-                                <option>Japan</option>
+                                <option>Col</option>
                             </select>
                         </div>
 
@@ -523,7 +341,7 @@
                         <div class="size14 trans-0-4 m-b-10">
                             <!-- Button -->
                             <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-                                Update Totals
+                                Actualizar Total
                             </button>
                         </div>
                     </div>
@@ -536,14 +354,14 @@
                     </span>
 
                     <span class="m-text21 w-size20 w-full-sm">
-                        $39.00
+                        $10.840
                     </span>
                 </div>
 
                 <div class="size15 trans-0-4">
                     <!-- Button -->
                     <button class="flex-c-m sizefull bg1 bo-rad-23 hov1 s-text1 trans-0-4">
-                        Proceed to Checkout
+                        Proceder a Comprar
                     </button>
                 </div>
             </div>
@@ -557,12 +375,13 @@
         <div class="flex-w p-b-90">
             <div class="w-size6 p-t-30 p-l-15 p-r-15 respon3">
                 <h4 class="s-text12 p-b-30">
-                    GET IN TOUCH
+                    Contacto
                 </h4>
 
                 <div>
                     <p class="s-text7 w-size27">
-                        Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or call us on (+1) 96 716 6879
+                        ¿Tienes preguntas? contactanos en nuestra oficina
+                        calle 9 #33-06 Neiva-Huila o Llamanos (+57) 313893853
                     </p>
 
                     <div class="flex-m p-t-30">
@@ -583,25 +402,19 @@
                 <ul>
                     <li class="p-b-9">
                         <a href="#" class="s-text7">
-                            Men
+                            Especial Supremo
                         </a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="#" class="s-text7">
-                            Women
+                            Especial Clásico
                         </a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="#" class="s-text7">
-                            Dresses
-                        </a>
-                    </li>
-
-                    <li class="p-b-9">
-                        <a href="#" class="s-text7">
-                            Sunglasses
+                            Especial Unicó
                         </a>
                     </li>
                 </ul>
@@ -615,65 +428,29 @@
                 <ul>
                     <li class="p-b-9">
                         <a href="#" class="s-text7">
-                            Search
+                            Nosotros
                         </a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="#" class="s-text7">
-                            About Us
+                            Contacto
                         </a>
                     </li>
 
                     <li class="p-b-9">
                         <a href="#" class="s-text7">
-                            Contact Us
+                            Blog
                         </a>
                     </li>
 
-                    <li class="p-b-9">
-                        <a href="#" class="s-text7">
-                            Returns
-                        </a>
-                    </li>
                 </ul>
             </div>
 
-            <div class="w-size7 p-t-30 p-l-15 p-r-15 respon4">
-                <h4 class="s-text12 p-b-30">
-                    Help
-                </h4>
-
-                <ul>
-                    <li class="p-b-9">
-                        <a href="#" class="s-text7">
-                            Track Order
-                        </a>
-                    </li>
-
-                    <li class="p-b-9">
-                        <a href="#" class="s-text7">
-                            Returns
-                        </a>
-                    </li>
-
-                    <li class="p-b-9">
-                        <a href="#" class="s-text7">
-                            Shipping
-                        </a>
-                    </li>
-
-                    <li class="p-b-9">
-                        <a href="#" class="s-text7">
-                            FAQs
-                        </a>
-                    </li>
-                </ul>
-            </div>
 
             <div class="w-size8 p-t-30 p-l-15 p-r-15 respon3">
                 <h4 class="s-text12 p-b-30">
-                    Newsletter
+                    ¿QUIERES ESTAR INFORMADO?
                 </h4>
 
                 <form>
@@ -685,7 +462,7 @@
                     <div class="w-size2 p-t-20">
                         <!-- Button -->
                         <button class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                            Subscribe
+                            Subscribete
                         </button>
                     </div>
 
@@ -745,18 +522,18 @@
     <!--===============================================================================================-->
     <script type="text/javascript" src="vendor/select2/select2.min.js"></script>
     <script type="text/javascript">
-		$(".selection-1").select2({
-			minimumResultsForSearch: 20,
-			dropdownParent: $('#dropDownSelect1')
-		});
+        $(".selection-1").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
 
-		$(".selection-2").select2({
-			minimumResultsForSearch: 20,
-			dropdownParent: $('#dropDownSelect2')
-		});
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect2')
+        });
     </script>
     <!--===============================================================================================-->
     <script src="js/main.js"></script>
 
-</body>
-</html>
+
+</asp:Content>
