@@ -10,11 +10,11 @@
     <title>Login</title>
 
 </head>
-<body style=" background-size:cover; background-image:url('images/fondoLogin.jpg')">
+<body style=" background-size:cover; background-image:url('images/login3.jpeg')">
 	<form id="form1" runat="server">
 	<div class ="panel-img">
 		<img src="images/panel.png" />
-		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpecialCoffeInternationalConnectionString %>" EnableViewState="False" SelectCommand="sp_verificar_customer_log" SelectCommandType="StoredProcedure" OnSelecting="SqlDataSource1_Selecting">
+		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpecialCoffeInternationalConnectionString %>" EnableViewState="False" SelectCommand="sp_verificar_customer_log" SelectCommandType="StoredProcedure">
 			<SelectParameters>
 				<asp:ControlParameter ControlID="txtEmail" Name="email" PropertyName="Text" Type="String" />
 				<asp:ControlParameter ControlID="txtPass" Name="pass" PropertyName="Text" Type="String" />
@@ -66,7 +66,7 @@
                               
                               
                               <p>						  							                               
-                                  <asp:Button  ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="130px" />
+                                  <asp:Button  ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="130px"/>
 
                                  
                                   <a href="/forgot/" class="btn btn-default btn-block">Recuperar cuenta</a>

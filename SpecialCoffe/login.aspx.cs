@@ -66,10 +66,5 @@ namespace SpecialCoffe
 
 
             }
-
-        protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
-        {
-
-        }
     }
 }
