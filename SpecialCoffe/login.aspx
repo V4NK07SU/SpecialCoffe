@@ -95,7 +95,7 @@
 <!-- User Login Form End Here -->
           
 <!-- <button class="btn navbar-btn btn-info" type="button">New Account</button><span class="sr-only">(current)</span> -->
-        
+        s
 
 
 <script src="js/jquery-3.1.1.min.js"></script>

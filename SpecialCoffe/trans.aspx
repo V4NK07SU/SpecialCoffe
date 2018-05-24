@@ -73,7 +73,7 @@
                 <div id="loginForm" method="TextoEncima" action="/login/compador/vendedor" novalidate="novalidate">
 
 
-                  
+                                      
 
                     <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
