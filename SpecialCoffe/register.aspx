@@ -15,10 +15,40 @@
 		}
 	</style>
 </head>
-<body style="width: 838px">
+<body style=" background-size:cover; background-image:url('images/login3.jpeg')"">
     <form id="form1" runat="server">
-        <div>
-        	<table style="width:400px;">
+        <div>                             
+        
+        <div class ="panel-img" align="center">             
+		<img src="images/panel.png" />
+            </div>
+            </div>
+           
+        
+        <div align="center">
+
+            <div style="position: absolute; z-index: 1; top: 125px; left: 176px; width: 200px; height: 377px;" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 350px; top: 9px; left: -150px; height: 323px; width: 210px;">
+
+                <br />
+                <br />
+                <div class="row">
+                    <div align="right" class="col-xs-11">
+
+
+            <asp:Label runat="server"
+                Font-Bold="True"
+                ForeColor="#000000"
+                Font-Size="14"                
+                Text="Vendedor"
+                ></asp:Label>
+
+                        </div>
+
+                    </div>
+                <br />
+                <br />
+
+        	<table align="center" style="width:400px">
 				<tr>
 					<td class="auto-style1">
 						<asp:Label ID="lblNombre" runat="server" Text="Nombre"></asp:Label>
@@ -29,7 +59,7 @@
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblApellido" runat="server" Text="Apellido"></asp:Label>
+						<asp:Label ID="lblApellido" runat="server" Text="Apellidos"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
@@ -37,7 +67,7 @@
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblCedula" runat="server" Text="Cedula"></asp:Label>
+						<asp:Label ID="lblCedula" runat="server" Text="Cédula"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtCedula" runat="server"></asp:TextBox>
@@ -45,7 +75,7 @@
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblTelefono" runat="server" Text="Telefono"></asp:Label>
+						<asp:Label ID="lblTelefono" runat="server" Text="Teléfono"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtTelefono" runat="server"></asp:TextBox>
@@ -53,7 +83,7 @@
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblemail" runat="server" Text="email"></asp:Label>
+						<asp:Label ID="lblemail" runat="server" Text="Email"></asp:Label>
 					</td>
 					<td class="auto-style2">
 						<asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
@@ -61,19 +91,22 @@
 				</tr>
 				<tr>
 					<td class="auto-style1">
-						<asp:Label ID="lblpass" runat="server" Text="contraseña"></asp:Label>
+						<asp:Label ID="lblpass" runat="server" Text="Contraseña"></asp:Label>
 					</td>
 					<td class="auto-style2">
-						<asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+						<asp:TextBox ID="txtPass" runat="server" TextMode="Password"></asp:TextBox>
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
+					<td colspan="2" style="position: relative ; z-index: 1; top: 10px; left:96px; width: 1000px; height: -400px;" id="layer3">
 						<asp:Button ID="btnRegistrarme" runat="server" OnClick="btnRegistrarme_Click" Text="Registrarme" />
 					</td>
 				</tr>
 			</table>
         </div>
+                </div>
+            </div>
+        
     </form>
 </body>
 </html>
