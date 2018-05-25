@@ -14,20 +14,20 @@
 				<td colspan="2">Iniciar sesion</td>
 			</tr>
 			<tr>
-				<td>UserName</td>
+				<td>Usuario</td>
 				<td>
 					<asp:TextBox ID="txtuser" runat="server"></asp:TextBox>
 				</td>
 			</tr>
 			<tr>
-				<td>Password</td>
+				<td>Contraseña</td>
 				<td>
 					<asp:TextBox ID="txtpass" runat="server"></asp:TextBox>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<asp:Button ID="btnenviar" runat="server" Text="iniciar Sesion" OnClick="btnenviar_Click" />
+					<asp:Button ID="btnenviar" runat="server" Text="Iniciar Sesion" OnClick="btnenviar_Click" />
 					<br />
 					<asp:Label ID="lblerror" runat="server"></asp:Label>
 				</td>
