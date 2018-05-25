@@ -44,7 +44,7 @@
 								<img src="images/cata.jpg" alt="IMG-BLOG">
 
 								<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">
-									16 May, 2018
+									17 May, 2018
 								</span>
 							</a>
 
@@ -72,7 +72,7 @@
 								<img src="images/café-etiopía.jpg" alt="IMG-BLOG">
 
 								<span class="item-blog-date dis-block flex-c-m pos1 size17 bg4 s-text1">
-									16 May, 2018
+									18 May, 2018
 								</span>
 							</a>
 
@@ -110,31 +110,19 @@
 						<ul>
 							<li class="p-t-6 p-b-8 bo6">
 								<a href="#" class="s-text13 p-t-5 p-b-5">
-									Fashion
+									Especial Clásico 
 								</a>
 							</li>
 
 							<li class="p-t-6 p-b-8 bo7">
 								<a href="#" class="s-text13 p-t-5 p-b-5">
-									Beauty
+									Especial Supremo 
 								</a>
 							</li>
 
 							<li class="p-t-6 p-b-8 bo7">
 								<a href="#" class="s-text13 p-t-5 p-b-5">
-									Street Style
-								</a>
-							</li>
-
-							<li class="p-t-6 p-b-8 bo7">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									Life Style
-								</a>
-							</li>
-
-							<li class="p-t-6 p-b-8 bo7">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									DIY & Crafts
+									Especial Unico 
 								</a>
 							</li>
 						</ul>
@@ -146,82 +134,62 @@
 
 						<ul class="bgwhite">
 							<li class="flex-w p-b-20">
-								<a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/item-16.jpg" alt="IMG-PRODUCT">
+								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+									<img src="images/1.jpg" alt="IMG-PRODUCT">
 								</a>
 
 								<div class="w-size23 p-t-5">
-									<a href="product-detail.html" class="s-text20">
-										White Shirt With Pleat Detail Back
+									<a href="Shop.aspx" class="s-text20">
+										Nescafe Smoovlatté
 									</a>
-
-									<span class="dis-block s-text17 p-t-6">
-										$19.00
-									</span>
 								</div>
 							</li>
 
 							<li class="flex-w p-b-20">
-								<a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/item-17.jpg" alt="IMG-PRODUCT">
+								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+									<img src="images/2.jpg" alt="IMG-PRODUCT">
 								</a>
 
 								<div class="w-size23 p-t-5">
-									<a href="product-detail.html" class="s-text20">
-										Converse All Star Hi Black Canvas
+									<a href="Shop.aspx" class="s-text20">
+										Juan Valdez
 									</a>
-
-									<span class="dis-block s-text17 p-t-6">
-										$39.00
-									</span>
 								</div>
 							</li>
 
 							<li class="flex-w p-b-20">
-								<a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/item-08.jpg" alt="IMG-PRODUCT">
+								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+									<img src="images/3.jpg" alt="IMG-PRODUCT">
 								</a>
 
 								<div class="w-size23 p-t-5">
-									<a href="product-detail.html" class="s-text20">
-										Nixon Porter Leather Watch In Tan
+									<a href="Shop.aspx" class="s-text20">
+										Piedra Negra
 									</a>
-
-									<span class="dis-block s-text17 p-t-6">
-										$17.00
-									</span>
 								</div>
 							</li>
 
 							<li class="flex-w p-b-20">
-								<a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/item-03.jpg" alt="IMG-PRODUCT">
+								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+									<img src="images/4.jpg" alt="IMG-PRODUCT">
 								</a>
 
 								<div class="w-size23 p-t-5">
-									<a href="product-detail.html" class="s-text20">
-										Denim jacket blue
+									<a href="Shop.aspx" class="s-text20">
+										Tradición Moreno
 									</a>
-
-									<span class="dis-block s-text17 p-t-6">
-										$39.00
-									</span>
 								</div>
 							</li>
 
 							<li class="flex-w p-b-20">
-								<a href="product-detail.html" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/item-05.jpg" alt="IMG-PRODUCT">
+								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
+									<img src="images/5.jpg" alt="IMG-PRODUCT">
 								</a>
 
 								<div class="w-size23 p-t-5">
-									<a href="product-detail.html" class="s-text20">
-										Nixon Porter Leather Watch In Tan
+									<a href="Shop.aspx" class="s-text20">
+										Fincafé
 									</a>
-
-									<span class="dis-block s-text17 p-t-6">
-										$17.00
-									</span>
 								</div>
 							</li>
 						</ul>
@@ -233,84 +201,35 @@
 
 						<ul>
 							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									July 2018
+								<a href="Blog_Barista.aspx" class="s-text13 p-t-5 p-b-5">
+									16 May, 2018
 								</a>
 
 								<span class="s-text13">
-									(9)
+									(1)
 								</span>
 							</li>
 
 							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									June 2018
+								<a href="Blog_Catacion.aspx" class="s-text13 p-t-5 p-b-5">
+									17 May, 2018
 								</a>
 
 								<span class="s-text13">
-									(39)
+									(1)
 								</span>
 							</li>
 
 							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									May 2018
+								<a href="Blog_OrigenCafe.aspx" class="s-text13 p-t-5 p-b-5">
+									18 May, 2018
 								</a>
 
 								<span class="s-text13">
-									(29)
+									(1)
 								</span>
 							</li>
 
-							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									April  2018
-								</a>
-
-								<span class="s-text13">
-									(35)
-								</span>
-							</li>
-
-							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									March 2018
-								</a>
-
-								<span class="s-text13">
-									(22)
-								</span>
-							</li>
-
-							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									February 2018
-								</a>
-
-								<span class="s-text13">
-									(32)
-								</span>
-							</li>
-
-							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									January 2018
-								</a>
-
-								<span class="s-text13">
-									(21)
-								</span>
-							</li>
-
-							<li class="flex-sb-m">
-								<a href="#" class="s-text13 p-t-5 p-b-5">
-									December 2017
-								</a>
-
-								<span class="s-text13">
-									(26)
-								</span>
-							</li>
 						</ul>
 
 						<!-- Tags -->
@@ -319,25 +238,18 @@
 						</h4>
 
 						<div class="wrap-tags flex-w">
-							<a href="#" class="tag-item">
-								Fashion
+							<a href="Blog_Barista.aspx" class="tag-item">
+								Barista
 							</a>
 
-							<a href="#" class="tag-item">
-								Lifestyle
+							<a href="Blog_Catacion.aspx" class="tag-item">
+								Catacion
 							</a>
 
-							<a href="#" class="tag-item">
-								Denim
+							<a href="Blog_OrigenCafe.aspx" class="tag-item">
+								Origen
 							</a>
 
-							<a href="#" class="tag-item">
-								Streetstyle
-							</a>
-
-							<a href="#" class="tag-item">
-								Crafts
-							</a>
 						</div>
 					</div>
 				</div>
