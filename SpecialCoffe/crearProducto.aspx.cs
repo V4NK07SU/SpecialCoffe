@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.Sql;
 using System.Data.SqlClient;
+using System.Drawing;
 
 namespace SpecialCoffe
 {
@@ -22,8 +23,37 @@ namespace SpecialCoffe
             Response.Redirect("logcustomer/index.aspx");
         }
 
+        public void imagenGuar()
+        {
+            int tamanio = FileUpload1.PostedFile.ContentLength;
+            byte[] imagenOriginal = new byte[tamanio];
+
+
+            FileUpload1.PostedFile.InputStream.Read(imagenOriginal, 0, tamanio);
+
+            Bitmap imagenOriginalBinaria = new Bitmap(FileUpload1.PostedFile.InputStream);
+
+            string ImagenDataUrl64 = "data:image/jpg;base64," + Convert.ToBase64String(imagenOriginal);
+
+            imgPreview.ImageUrl = ImagenDataUrl64;
+
+        }
+
         protected void btnContinuar_Click(object sender, EventArgs e)
         {
+            int tamanio = FileUpload1.PostedFile.ContentLength;
+            byte[] imagenOriginal = new byte[tamanio];
+
+
+            FileUpload1.PostedFile.InputStream.Read(imagenOriginal, 0, tamanio);
+
+           // Bitmap imagenOriginalBinaria = new Bitmap(FileUpload1.PostedFile.InputStream);
+
+            string ImagenDataUrl64 = "data:image/jpg;base64," + Convert.ToBase64String(imagenOriginal);
+
+            imgPreview.ImageUrl = ImagenDataUrl64;
+
+
             Connexion conect = new Connexion();                 
                 
 
@@ -86,12 +116,17 @@ namespace SpecialCoffe
             insertcli.SqlDbType = SqlDbType.BigInt;
             insertcli.Value = txtCliente.Text;
 
-            SqlParameter insertcat = new SqlParameter();
-            insertcat.ParameterName = "@idcategorie";
-            insertcat.SqlDbType = SqlDbType.Int;
-            insertcat.Value = txtCategoria.Text;
+            //SqlParameter insertcat = new SqlParameter();
+            //insertcat.ParameterName = "@idcategorie";
+            //insertcat.SqlDbType = SqlDbType.Int;
+            //insertcat.Value = txtCategoria.Text;
 
+           
 
+            SqlParameter insertimg = new SqlParameter();
+            insertimg.ParameterName = "@imagen";
+            insertimg.SqlDbType = SqlDbType.Image;
+            insertimg.Value = imagenOriginal;
 
             Def.comando.Parameters.Add(insertfinca);
             Def.comando.Parameters.Add(insertvari);
@@ -103,13 +138,25 @@ namespace SpecialCoffe
             Def.comando.Parameters.Add(inserdep);
             Def.comando.Parameters.Add(insertmun);
             Def.comando.Parameters.Add(insertcli);
-            Def.comando.Parameters.Add(insertcat);
-            
+           // Def.comando.Parameters.Add(insertcat);
+            Def.comando.Parameters.Add(insertimg);
+
 
             Def.da = new SqlDataAdapter(Def.comando);
             Def.comando.ExecuteNonQuery();
             Response.Redirect("logcustomer/index.aspx");
             conect.cerrarConexion();
+
+        }
+
+        protected void btnImagen_Click(object sender, EventArgs e)
+        {
+            imagenGuar();
+
+        }
+
+        protected void lsbCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

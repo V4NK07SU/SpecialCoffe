@@ -213,18 +213,15 @@
 					</div>
 				</div>
 			</div>
+<%-- traer datos  --%>
 
-			<div class="w-size14 p-t-30 respon5">
+			<%--<div class="w-size14 p-t-30 respon5">
 				<h4 class="product-detail-name m-text16 p-b-13">
 					<asp:Label ID="lblNombreFinca" runat="server" Text=""></asp:Label>
-				</h4>
-
-				<span class="m-text17">
-					<asp:Label ID="lblcantidad" runat="server" Text="Label"></asp:Label>
-				</span>
+				</h4>				
 
 				<p class="s-text8 p-t-10">
-					<asp:Label ID="lblcaracteristicas" runat="server" Text="Label"></asp:Label>
+					<asp:Label ID="lblcaracteristicas" runat="server" Text=""></asp:Label>
 				</p>
 
 			
@@ -237,7 +234,7 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							<asp:Label ID="lblcertificaciones" runat="server" Text="Label"></asp:Label>
+							<asp:Label ID="lblcertificaciones" runat="server" Text=""></asp:Label>
 						</p>
 					</div>
 				</div>
@@ -249,12 +246,13 @@
 						<i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
 					</h5>
 
+
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							<asp:Label ID="lblmunicipio" runat="server" Text="Label"></asp:Label>
+							<asp:Label ID="lblmunicipio" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
-							<asp:Label ID="lbldepartamento" runat="server" Text="Label"></asp:Label>
+							<asp:Label ID="lbldepartamento" runat="server" Text=""></asp:Label>
 							</p>
 					</div>
 				</div>
@@ -268,17 +266,45 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
-							<asp:Label ID="lbltaza" runat="server" Text="Label"></asp:Label>
+							<asp:Label ID="lbltaza" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
-							<asp:Label ID="lblaltura" runat="server" Text="Label"></asp:Label>
+							<asp:Label ID="lblaltura" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
-							<asp:Label ID="lblvariedad" runat="server" Text="Label"></asp:Label>
+							<asp:Label ID="lblvariedad" runat="server" Text=""></asp:Label>
+							</p>
+						<p class="s-text8">
+					<asp:Label ID="lblcantidad" runat="server" Text=""></asp:Label>
+						</p>
+					</div>
+				</div>
+
+					<div class="wrap-dropdown-content bo7 p-t-15 p-b-14">
+					<h5 class="js-toggle-dropdown-content flex-sb-m cs-pointer m-text19 color0-hov trans-0-4">
+						informacion del vendedor
+						<i class="down-mark fs-12 color1 fa fa-minus dis-none" aria-hidden="true"></i>
+						<i class="up-mark fs-12 color1 fa fa-plus" aria-hidden="true"></i>
+					</h5>
+
+
+					<div class="dropdown-content dis-none p-t-15 p-b-23">
+						<p class="s-text8">
+							<asp:Label ID="lblnombre" runat="server" Text="Label"></asp:Label>
+							</p>
+						<p class="s-text8">
+							<asp:Label ID="lblapellido" runat="server" Text="Label"></asp:Label>
+							</p>
+						<p class="s-text8">
+							<asp:Label ID="lbltel" runat="server" Text="Label"></asp:Label>
+							</p>
+						<p class="s-text8">
+							<asp:Label ID="lblemail" runat="server" Text="Label"></asp:Label>
 							</p>
 					</div>
 				</div>
-			</div>
+			</div>--%>
+			<%--  --%>
 		</div>
 	</div>
 

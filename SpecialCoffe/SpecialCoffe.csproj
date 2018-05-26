@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cafeteras.aspx" />
+    <Content Include="js\jquery.js" />
     <Content Include="logbuyer\About.aspx" />
     <Content Include="logbuyer\Blog.aspx" />
     <Content Include="logbuyer\Blog_Barista.aspx" />

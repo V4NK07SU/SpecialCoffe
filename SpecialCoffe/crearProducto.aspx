@@ -15,11 +15,38 @@
 			width: 197px;
 		}
 	</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" ></script>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+		<%-- inicio imagen --%>
+        <div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4">
+					Imagen agregada:
+					<br />
+					<asp:Image ID="imgPreview" width="200" ImageUrl="/../images/preview-icon.png" runat="server" />
+					<br />
+					<br />
+					Archivo:
+					<br />
+					<br />
+					<asp:FileUpload ID="FileUpload1" accept=".jpg" runat="server" CssClass="form-Control"/>
+				</div>
+
+			</div>
+				<asp:Button ID="btnImagen" runat="server" Text="cargar  imagen" CssClass="btn btn-success" OnClick="btnImagen_Click"/>
+
+			<div class="row">
+				
+			</div>
+
+
         </div>
+		<%-- fin imagen --%>
+
         	<table class="auto-style1">
 				<tr>
 					<td class="auto-style2">
@@ -66,15 +93,7 @@
 					</td>
 					<td>&nbsp;</td>
 				</tr>
-				<tr>
-					<td class="auto-style2">
-						<asp:Label ID="Label5" runat="server" Text="Selecione categoria"></asp:Label>
-					</td>
-					<td>
-						<asp:TextBox ID="txtCategoria" runat="server"></asp:TextBox>
-					</td>
-					<td>&nbsp;</td>
-				</tr>
+			
 				<tr>
 					<td class="auto-style2">
 						<asp:Label ID="Label6" runat="server" Text="Analisis prueba de Taza"></asp:Label>
@@ -120,6 +139,8 @@
 					</td>
 					<td>&nbsp;</td>
 				</tr>
+				
+
 				<tr>
 					<td class="auto-style2">
 						&nbsp;</td>
@@ -137,6 +158,7 @@
 					<td>&nbsp;</td>
 				</tr>
 			</table>
+    	
     </form>
 </body>
 </html>

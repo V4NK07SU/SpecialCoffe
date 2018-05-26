@@ -67,7 +67,7 @@ namespace SpecialCoffe
 
             Def.da = new SqlDataAdapter(Def.comando);           
             Def.comando.ExecuteNonQuery();
-            Response.Redirect("login.aspx");
+            Response.Redirect("logcustomer/index.aspx");
             
             conect.cerrarConexion();           
 

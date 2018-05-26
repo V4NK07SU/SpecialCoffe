@@ -6,39 +6,57 @@
 	<section class="bgwhite p-t-66 p-b-60">
 		<div class="container">
 			<div class="row">
+			
+
 				<div class="col-md-6 p-b-30">
-					<div class="p-r-20 p-r-0-lg">
-						<div class="contact-map size21" id="google_map" data-map-x="40.614439" data-map-y="-73.926781" data-pin="images/icons/icon-position-map.png" data-scrollwhell="0" data-draggable="1"></div>
+					<form  runat="server" class="leave-comment">
+						<div class="container">
+
+							<div class="row">
+								<div class="col-md-4 p-b-30">
+					<div class="hov-img-zoom">
+						<img src="images/logo.png" alt="IMG-ABOUT">
 					</div>
 				</div>
 
-				<div class="col-md-6 p-b-30">
-					<form class="leave-comment">
-						<h4 class="m-text26 p-b-36 p-t-15">
-							Envianos tus mensaje
-						</h4>
 
-						<div class="bo4 of-hidden size15 m-b-20">
-							<input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="name" placeholder="Nombre Completo">
-						</div>
+								<div class="col-sm-5 col-sm-offset-1">
+									<h2 class="">Enviar Mensaje</h2>
 
-						<div class="bo4 of-hidden size15 m-b-20">
-							<input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="phone-number" placeholder="Numero Celular">
-						</div>
-
-						<div class="bo4 of-hidden size15 m-b-20">
-							<input class="sizefull s-text7 p-l-22 p-r-22" type="text" name="email" placeholder="Direccion Email">
-						</div>
-
-						<textarea class="dis-block s-text7 size20 bo4 p-l-22 p-r-22 p-t-13 m-b-20" name="message" placeholder="Mensaje"></textarea>
-
-						<div class="w-size25">
-							<!-- Button -->
-							<button class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4">
-								Enviar
-							</button>
+									<div class="form-group">
+										<label>Nombre</label>
+										<asp:TextBox ID="txtName" CssClass="form-control" runat="server" required="required"></asp:TextBox>
+									</div>
+									<div class="form-group">
+										<label>Telefono</label>
+										<asp:TextBox ID="txttelefono" CssClass="form-control" runat="server" required="required"></asp:TextBox>
+									</div>
+									<div class="form-group">
+										<label>Email</label>
+										<asp:TextBox ID="txtemail" CssClass="form-control" runat="server" TextMode="Email" required="required"></asp:TextBox>
+									</div>
+									<div class="form-group">
+										<label>Asunto</label>
+										<asp:TextBox ID="TextBox3" CssClass="form-control" runat="server" required="required" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
+									</div>
+									<div class="form-group">
+										<label>Mensaje</label>
+										<asp:TextBox ID="txtmensaje" CssClass="form-control" runat="server" TextMode="MultiLine" required="required"></asp:TextBox>
+									</div>
+									<div class="form-group">
+										<asp:Label CssClass="error" ID="Labelerror" runat="server"></asp:Label>
+										<br />
+										<br />
+										<asp:Button ID="Button1" CssClass="btn btn-primary" runat="server" OnClick="Button1_Click" Text="Enviar Mensaje" />
+									</div>
+								</div>
+							</div>
 						</div>
 					</form>
+					<script src="js/bootstrap.min.js"></script>
+					<script src="js/jquery.js"></script>
+					<script src="js/main.js"></script>
+					<link href="css/bootstrap.min.css" rel="stylesheet" />
 				</div>
 			</div>
 		</div>
