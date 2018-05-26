@@ -5,6 +5,9 @@
 <html>
 <head runat="server">
 
+
+
+
     <title></title>
 
 	<meta charset="UTF-8">
@@ -38,24 +41,79 @@
 </head>
 <body  style=" background-size:cover; background-image:url('images/login3.jpeg')">
     <form id="form1" runat="server">
-        <div>
-			<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-							Lo Nuevo
-						</h2>
+        
+        
+        <div">                             
+        
+        <div class ="panel-img" align="center">             
+		<img src="images/panel.png" />
+            </div>
+            </div>
 
-						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
+
+        
+        <div align="center">
+
+            <div style="position: absolute; z-index: 1; top: 125px; left: 176px; width: 624px; height: 377px;" id="layer2" ><div class="modal-body" style="margin:10px 0px 0px 480px; top: 9px; left: -60px; height: 323px; width: 260px;">
+
+                <div class="row">
+                    <div align="center" class="col-xs-11">
+
+                <asp:Label runat="server"
+                Font-Bold="True"
+                ForeColor="#000000"
+                Font-Size="20"                
+                Text="Crear Cuenta"
+                ></asp:Label>
+
+                <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+							&nbsp;</h2>
+
+               
+                <div id="loginForm" method="TextoEncima" action="/login/compador/vendedor" novalidate="novalidate">
+
+
+                                      
+
+                    <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
 							<a href="register.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Ofrecer Producto
+                                <asp:Label runat="server"
+                                Font-Bold="True"
+                                ForeColor="#1E19A7"
+                                Font-Size="15"                
+                                Text="Vendedor"
+                                ></asp:Label>
+
+								
 							</a>
 						</div>
 			<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
 							<!-- Button -->
 							<a href="RegistroBuyer.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Empresa
-							</a>
-						</div>
-        </div>
+								</a><a href="RegistroBuyer.aspx">
+
+                                <asp:Label runat="server"
+                                Font-Bold="True"
+                                ForeColor="#1E19A7"
+                                Font-Size="15"                
+                                Text="Comprador"
+                                ></asp:Label>
+
+
+								    </a></div>
+                                       
+                    </div>
+                </div>   
+                </div>
+                </div>
+                </div>
+            
+            </div>
+                                              
+                    	              
+                       						
+       
     </form>
 </body>
 </html>
