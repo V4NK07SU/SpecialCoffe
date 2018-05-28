@@ -145,53 +145,6 @@
 								</div>
 							</li>
 
-							<li class="flex-w p-b-20">
-								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/2.jpg" alt="IMG-PRODUCT">
-								</a>
-
-								<div class="w-size23 p-t-5">
-									<a href="Shop.aspx" class="s-text20">
-										Juan Valdez
-									</a>
-								</div>
-							</li>
-
-							<li class="flex-w p-b-20">
-								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/3.jpg" alt="IMG-PRODUCT">
-								</a>
-
-								<div class="w-size23 p-t-5">
-									<a href="Shop.aspx" class="s-text20">
-										Piedra Negra
-									</a>
-								</div>
-							</li>
-
-							<li class="flex-w p-b-20">
-								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/4.jpg" alt="IMG-PRODUCT">
-								</a>
-
-								<div class="w-size23 p-t-5">
-									<a href="Shop.aspx" class="s-text20">
-										Tradición Moreno
-									</a>
-								</div>
-							</li>
-
-							<li class="flex-w p-b-20">
-								<a href="Shop.aspx" class="dis-block wrap-pic-w w-size22 m-r-20 trans-0-4 hov4">
-									<img src="images/5.jpg" alt="IMG-PRODUCT">
-								</a>
-
-								<div class="w-size23 p-t-5">
-									<a href="Shop.aspx" class="s-text20">
-										Fincafé
-									</a>
-								</div>
-							</li>
 						</ul>
 
 						<!-- Archive -->

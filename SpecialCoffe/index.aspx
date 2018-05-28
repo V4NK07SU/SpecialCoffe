@@ -6,53 +6,44 @@
 	<section class="slide1">
 		<div class="wrap-slick1">
 			<div class="slick1">
-				<div class="item-slick1 item1-slick1" style="background-image: url(images/master-slide-01.jpg);">
+				<div class="item-slick1 item1-slick1" style="background-image: url(images/photo-40433.jpeg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
-							migulito
+							LO NUEVO
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
-							<!-- Button -->
-							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
-							</a>
+							
 						</div>
 					</div>
 				</div>
 
-				<div class="item-slick1 item2-slick1" style="background-image: url(images/master-slide-03.jpg);">
+				<div class="item-slick1 item2-slick1" style="background-image: url(images/pexels-photo-585754.jpeg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
-							Lo Nuevo
+							EN VENTA Y COMPRA DE
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
-							<!-- Button -->
-							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
-							</a>
+					
 						</div>
 					</div>
 				</div>
 
-				<div class="item-slick1 item3-slick1" style="background-image: url(images/master-slide-02.jpg);">
+				<div class="item-slick1 item3-slick1" style="background-image: url(images/pexels-photo-261434.jpeg);">
 					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
 						
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-							Lo Nuevo
+							CAFÉS ESPECIALES
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-							<!-- Button -->
-							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
-							</a>
+							
 						</div>
 					</div>
 				</div>
@@ -77,7 +68,7 @@
 
 						<div class="block2-content sizefull ab-t-l flex-col-c-m">
 							<h4 class="m-text4 t-center w-size3 p-b-8">
-								Registrese y Obtenga un 20% de Descuento
+								Regístrese y Obtenga un 20% de Descuento
 							</h4>
 
 							<p class="t-center w-size4">
@@ -87,14 +78,14 @@
 							<div class="w-size2 p-t-25">
 								<!-- Button -->
 								<a href="trans.aspx" class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-									Sign Up
+									Iniciar Sesión
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+	
 	</section>
 
 	<!-- New Product -->
@@ -125,7 +116,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -154,7 +145,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -183,7 +174,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -212,7 +203,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -241,7 +232,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -270,7 +261,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -299,7 +290,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -328,7 +319,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Producto
 										</button>
 									</div>
 								</div>
@@ -358,7 +349,7 @@
 
 				<span class="btn-play s-text4 hov5 cs-pointer p-t-25" data-toggle="modal" data-target="#modal-video-01">
 					<i class="fa fa-play" aria-hidden="true"></i>
-					Play Video
+					Iniciar Video
 				</span>
 			</div>
 		</div>
@@ -391,14 +382,14 @@
 
 						<div class="ab-t-l sizefull flex-col-c-m p-l-15 p-r-15">
 							<span class="m-text9 p-t-45 fs-20-sm">
-								Bonitas 
+								ACCESORIOS
 							</span>
 
 							<h3 class="l-text1 fs-35-sm">
 								CAFETERAS
 							</h3>
 
-							<a href="cafeteras.aspx" class="s-text4 hov2 p-t-20 ">
+							<a href="https://www.nespresso.com/co/es/order/accessories" class="s-text4 hov2 p-t-20 ">
 								Ver colección
 							</a>
 						</div>
@@ -411,7 +402,7 @@
 
 						<div class="ab-t-l sizefull flex-col-c-b p-l-15 p-r-15 p-b-20">
 							<div class="t-center">
-								<a href="Shop-detail.aspx" class="dis-block s-text14 p-b-5">
+								<a href="https://www.nespresso.com/co/es/order/machines" class="dis-block s-text14 p-b-5">
 									Máquina de Café Expreso
 								</a>
 
@@ -431,7 +422,7 @@
 									</span>
 
 									<span class="s-text13">
-										days
+										días
 									</span>
 								</div>
 
@@ -461,7 +452,7 @@
 									</span>
 
 									<span class="s-text13">
-										secs
+										segs
 									</span>
 								</div>
 							</div>
