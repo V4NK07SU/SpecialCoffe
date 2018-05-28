@@ -51,18 +51,18 @@
 		<div class="container-menu-header">
 			<div class="topbar">
 				<div class="topbar-social">
-					<a href="#" class="topbar-social-item fa fa-facebook"></a>
-					<a href="#" class="topbar-social-item fa fa-instagram"></a>
+					<a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
+					<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
 					<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
 					<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+					<a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
 				
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
-						contacto@sci.com
+						SpecialCoffeeInternational@gmail.com
 					</span>
 
 					<div class="topbar-language rs1-select2">
@@ -90,7 +90,7 @@
 							</li>
 
 							<li>
-								<a href="Shop.aspx">Tienda</a>
+								<a href="Shop.aspx">Catálogo</a>
 							</li>
 
 							<li>
@@ -110,15 +110,14 @@
 
 				<!-- Header Icon -->
 				<div class="header-icons">
-					<a href="trans.aspx" class="header-wrapicon1 dis-block">
+					<a href="logueo.aspx" class="header-wrapicon1 dis-block">
 						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
 					<span class="linedivide1"></span>
 
 					<div class="header-wrapicon2">
-						<img src="images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>
+                       
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
@@ -201,14 +200,14 @@
 		<div class="wrap_header_mobile">
 			<!-- Logo moblie -->
 			<a href="index.aspx" class="logo-mobile">
-				<img src="images/icons/logo.png" alt="IMG-LOGO">
+				<img src="images/icons/logo8.png" alt="IMG-LOGO">
 			</a>
 
 			<!-- Button show menu -->
 			<div class="btn-show-menu">
 				<!-- Header Icon mobile -->
 				<div class="header-icons-mobile">
-					<a href="#" class="header-wrapicon1 dis-block">
+					<a href="trans.aspx" class="header-wrapicon1 dis-block">
 						<img src="images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
@@ -326,11 +325,11 @@
 
 					<li class="item-topbar-mobile p-l-10">
 						<div class="topbar-social-mobile">
-							<a href="#" class="topbar-social-item fa fa-facebook"></a>
-							<a href="#" class="topbar-social-item fa fa-instagram"></a>
-							<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-							<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-							<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+					    <a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
+				    	<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
+					    <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+					    <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+					    <a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
 						</div>
 					</li>
 
@@ -464,26 +463,7 @@
 		</div>
 
 		<div class="t-center p-l-15 p-r-15">
-			<a href="#">
-				<img class="h-size2" src="images/icons/paypal.png" alt="IMG-PAYPAL">
-			</a>
-
-			<a href="#">
-				<img class="h-size2" src="images/icons/visa.png" alt="IMG-VISA">
-			</a>
-
-			<a href="#">
-				<img class="h-size2" src="images/icons/mastercard.png" alt="IMG-MASTERCARD">
-			</a>
-
-			<a href="#">
-				<img class="h-size2" src="images/icons/express.png" alt="IMG-EXPRESS">
-			</a>
-
-			<a href="#">
-				<img class="h-size2" src="images/icons/discover.png" alt="IMG-DISCOVER">
-			</a>
-
+			
 			<div class="t-center s-text8 p-t-20">
 				Copyright © 2018 All rights reserved. | <i class="fa fa-heart-o" aria-hidden="true"></i> by Special Coffe International
 			</div>

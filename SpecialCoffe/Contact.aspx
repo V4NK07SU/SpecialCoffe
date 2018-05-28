@@ -2,15 +2,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
 	<!-- content page -->
 	<section class="bgwhite p-t-66 p-b-60">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 p-b-30">
+                <div class="col-md-6 p-b-30">
 					<div class="p-r-20 p-r-0-lg">
-						<div class="contact-map size21" id="google_map" data-map-x="40.614439" data-map-y="-73.926781" data-pin="images/icons/icon-position-map.png" data-scrollwhell="0" data-draggable="1"></div>
+						<div class="contact-map size21" id="google_map" data-map-x="40.614439" data-map-y="-73.926781" data-pin="images/icons/icon-position-map.png" data-scrollwhell="0" data-draggable="1">
+						</div>
 					</div>
 				</div>
+
 
 				<div class="col-md-6 p-b-30">
 					<form class="leave-comment">

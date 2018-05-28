@@ -49,18 +49,18 @@
 		<div class="container-menu-header">
 			<div class="topbar">
 				<div class="topbar-social">
-					<a href="#" class="topbar-social-item fa fa-facebook"></a>
-					<a href="#" class="topbar-social-item fa fa-instagram"></a>
-					<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
-					<a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
-					<a href="#" class="topbar-social-item fa fa-youtube-play"></a>
+					   <a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
+				    	<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
+					    <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+					    <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+					    <a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
 				</div>
 
 				
 
 				<div class="topbar-child2">
 					<span class="topbar-email">
-						contacto@sci.com
+						SpecialCoffeeInternational@gmail.com
 					</span>
 
 					<div class="topbar-language rs1-select2">
@@ -88,7 +88,7 @@
 							</li>
 
 							<li>
-								<a href="Shop.aspx">Tienda</a>
+								<a href="Shop.aspx">Catálogo</a>
 							</li>
 
 							<li>
@@ -115,8 +115,7 @@
 					<span class="linedivide1"></span>
 
 					<div class="header-wrapicon2">
-						<img src="/../images/icons/icon-header-02.png" class="header-icon1 js-show-header-dropdown" alt="ICON">
-						<span class="header-icons-noti">0</span>
+						
 
 						<!-- Header cart noti -->
 						<div class="header-cart header-dropdown">
@@ -206,7 +205,7 @@
 			<div class="btn-show-menu">
 				<!-- Header Icon mobile -->
 				<div class="header-icons-mobile">
-					<a href="#" class="header-wrapicon1 dis-block">
+					<a href="trans.aspx" class="header-wrapicon1 dis-block">
 						<img src="/../images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
 
@@ -324,9 +323,11 @@
 
 					<li class="item-topbar-mobile p-l-10">
 						<div class="topbar-social-mobile">
-							<a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
-							<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
-							<a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
+						<a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
+				    	<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
+					    <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+					    <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+					    <a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
 						</div>
 					</li>
 
@@ -372,11 +373,11 @@
 					</p>
 
 					<div class="flex-m p-t-30">
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-facebook"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-instagram"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-pinterest-p"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-snapchat-ghost"></a>
-						<a href="#" class="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+						<a href="https://www.facebook.com/SpecialCoffeeInternational/" class="topbar-social-item fa fa-facebook"></a>
+				    	<a href="https://www.instagram.com/specialcofint/" class="topbar-social-item fa fa-instagram"></a>
+					    <a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+					    <a href="#" class="topbar-social-item fa fa-snapchat-ghost"></a>
+					    <a href="https://www.youtube.com/channel/UCPngH3corxZ9uv3Hupr5jLA" class="topbar-social-item fa fa-youtube-play"></a>
 					</div>
 				</div>
 			</div>

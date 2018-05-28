@@ -10,6 +10,7 @@
     <title>Login</title>
 
 </head>
+
 <body style=" background-size:cover; background-image:url('images/login3.jpeg')">
 	<form id="form1" runat="server">
 	<div class ="panel-img">
@@ -65,7 +66,8 @@
                               </div>
                               
                               
-                              <p>						  							                               
+                              <p>		
+                                  
                                   <asp:Button  ID="btnContinuar" cssclass="btn btn-success btn-block" runat="server" Text="Continuar" OnClick="btnContinuar_Click" Width="130px"/>
 
                                  
@@ -73,7 +75,10 @@
                                   <%--<button type="submit" class="btn btn-success btn-block">Login</button>--%>
                               </p>
                               <a href="trans.aspx" class="btn btn-info btn-block" >Registrarme</a>
-                                  
+                                  <!-- Button -->
+							<button class="flex-c-m size2 bg1 bo-rad-23 hov1 m-text3 trans-0-4">
+								Enviar
+							</button>
                           </div>
                       </div>
                   </div>

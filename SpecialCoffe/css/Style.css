@@ -1,4 +1,10 @@
-﻿.no-margin{
+﻿.contendor {
+    width:100px;
+    max-width:100px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.no-margin{
 	margin:0px;
 }
 .no-padding{
