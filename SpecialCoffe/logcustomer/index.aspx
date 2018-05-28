@@ -17,7 +17,7 @@
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
-						
+
 						</div>
 					</div>
 				</div>
