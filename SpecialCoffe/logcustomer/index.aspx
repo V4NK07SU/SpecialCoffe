@@ -12,15 +12,12 @@
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
 
-							migulito
+							LO NUEVO
 
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="zoomIn">
-							<!-- Button -->
-							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Compra customer
-							</a>
+
 						</div>
 					</div>
 				</div>
@@ -30,14 +27,11 @@
 						
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
-							Lo Nuevo
+							EN VENTA Y COMPRA DE
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
-							<!-- Button -->
-							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahorq
-							</a>
+							
 						</div>
 					</div>
 				</div>
@@ -47,14 +41,11 @@
 						
 
 						<h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-							Lo Nuevo
+							CAFÉS ESPECIALES
 						</h2>
 
 						<div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
-							<!-- Button -->
-							<a href="Shop.aspx" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-								Comprar Ahora
-							</a>
+						
 						</div>
 					</div>
 				</div>
@@ -88,7 +79,7 @@
 							<div class="w-size2 p-t-25">
 								<!-- Button -->
 								<a href="#" class="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-									Sign Up
+									Iniciar Sesión
 								</a>
 							</div>
 						</div>
@@ -126,7 +117,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -155,7 +146,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -184,7 +175,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -213,7 +204,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -242,7 +233,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -252,10 +243,6 @@
 								<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
 									Fincafé
 								</a>
-
-								<span class="block2-price m-text6 p-r-5">
-									$30.00
-								</span>
 							</div>
 						</div>
 					</div>
@@ -275,7 +262,7 @@
 									<div class="block2-btn-addcart w-size1 trans-0-4">
 										<!-- Button -->
 										<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-											Añadir Compra
+											Ver Prodcuto
 										</button>
 									</div>
 								</div>
@@ -285,10 +272,6 @@
 								<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
 									Gurmet Café Latte
 								</a>
-
-								<span class="block2-price m-text6 p-r-5">
-									$92.50
-								</span>
 							</div>
 						</div>
 					</div>
@@ -318,10 +301,6 @@
 								<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
 									Cracfty
 								</a>
-
-								<span class="block2-price m-text6 p-r-5">
-									$40.00
-								</span>
 							</div>
 						</div>
 					</div>
@@ -352,13 +331,6 @@
 									Static
 								</a>
 
-								<span class="block2-oldprice m-text7 p-r-5">
-									$29.50
-								</span>
-
-								<span class="block2-newprice m-text8 p-r-5">
-									$15.90
-								</span>
 							</div>
 						</div>
 					</div>
@@ -412,14 +384,14 @@
 
 						<div class="ab-t-l sizefull flex-col-c-m p-l-15 p-r-15">
 							<span class="m-text9 p-t-45 fs-20-sm">
-								Bonitas 
+								ACCESORIOS
 							</span>
 
 							<h3 class="l-text1 fs-35-sm">
 								CAFETERAS
 							</h3>
 
-							<a href="Cafeteras.aspx" class="s-text4 hov2 p-t-20 ">
+							<a href="https://www.nespresso.com/co/es/order/accessories" class="s-text4 hov2 p-t-20 ">
 								Ver colección
 							</a>
 						</div>
@@ -432,7 +404,7 @@
 
 						<div class="ab-t-l sizefull flex-col-c-b p-l-15 p-r-15 p-b-20">
 							<div class="t-center">
-								<a href="Shop_detail.aspx" class="dis-block s-text14 p-b-5">
+								<a href="https://www.nespresso.com/co/es/order/machines" class="dis-block s-text14 p-b-5">
 									Máquina de Café Expreso
 								</a>
 
@@ -452,7 +424,7 @@
 									</span>
 
 									<span class="s-text13">
-										days
+										daías
 									</span>
 								</div>
 
@@ -482,7 +454,7 @@
 									</span>
 
 									<span class="s-text13">
-										secs
+										segs
 									</span>
 								</div>
 							</div>
