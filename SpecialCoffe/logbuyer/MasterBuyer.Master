@@ -42,6 +42,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body class="animsition">
+	<form runat="server">
 
 	<!-- Header -->
 	<header class="header1">
@@ -105,8 +106,13 @@
 					<a href="trans.aspx" class="header-wrapicon1 dis-block">
 						<img src="/../images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
 					</a>
+					<span class="linedivide1"></span>
+						<ul>
+							<li>
+								<asp:Button ID="btncerrar" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4" runat="server" Text="Cerrar Sesion" OnClick="btncerrar_Click" />
 
-					
+							</li>
+						</ul>
 				</div>
 			</div>
 		</div>
@@ -377,6 +383,6 @@
 
 <!--===============================================================================================-->
 	<script src="/../js/main.js"></script>
-
+	</form>
 </body>
 </html>

@@ -15,14 +15,9 @@ namespace SpecialCoffe.logbuyer
     public partial class Shop_detail : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-                  
-         
-    
-       
-
-
-
+        {               
+             
+			
         //se traera todos los datos sin seleccionar categoria
         string cadena = "Data Source=.;Initial Catalog=SpecialCoffeInternational;User ID=sa;Password=123";
             //resive el parametro de la conexion
@@ -35,6 +30,7 @@ namespace SpecialCoffe.logbuyer
             SqlDataReader dr = comando.ExecuteReader();
             if (dr.Read())
             {
+				//this.ImagePro = dr[13].ToString();
                 this.lblNombreFinca.Text = dr[0].ToString();
                 this.lblcaracteristicas.Text = dr[1].ToString();
                 this.lblcertificaciones.Text = dr[2].ToString();

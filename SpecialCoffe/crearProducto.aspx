@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="crearProducto.aspx.cs" Inherits="SpecialCoffe.crearProducto" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="crearProducto.aspx.cs" Inherits="SpecialCoffe.crearProducto"  enableEventValidation="false" validateRequest="false" %>
 
 <!DOCTYPE html>
 

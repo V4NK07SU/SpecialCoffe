@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cerrar.aspx.cs" Inherits="SpecialCoffe.cerrar" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="cerrar.aspx.cs" Inherits="SpecialCoffe.cerrar"  enableEventValidation="false" validateRequest="false" %>
 
 <!DOCTYPE html>
 

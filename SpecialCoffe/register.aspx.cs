@@ -18,8 +18,8 @@ namespace SpecialCoffe
 
         protected void btnRegistrarme_Click(object sender, EventArgs e)
         {
-            Connexion conect = new Connexion();
 
+            Connexion conect = new Connexion();
             string cadena = "Data Source=.;Initial Catalog=SpecialCoffeInternational;User ID=sa;Password=123";
             //resive el parametro de la conexion
             SqlConnection conectar = new SqlConnection(cadena);

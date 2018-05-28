@@ -13,5 +13,12 @@ namespace SpecialCoffe.logbuyer
         {
 
         }
-    }
+
+		protected void btncerrar_Click(object sender, EventArgs e)
+		{
+			Response.Cookies.Clear();
+			//Session.Abandon();
+			Response.Redirect("../index.aspx");
+		}
+	}
 }

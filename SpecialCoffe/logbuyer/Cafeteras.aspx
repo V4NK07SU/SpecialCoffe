@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Cafeteras.aspx.cs" Inherits="SpecialCoffe.logbuyer.Cafetera" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Cafeteras.aspx.cs" Inherits="SpecialCoffe.logbuyer.Cafetera"  enableEventValidation="false" validateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

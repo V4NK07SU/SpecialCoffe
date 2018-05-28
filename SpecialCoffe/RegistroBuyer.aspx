@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RegistroBuyer.aspx.cs" Inherits="SpecialCoffe.RegistroBuyer" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="RegistroBuyer.aspx.cs" Inherits="SpecialCoffe.RegistroBuyer"   enableEventValidation="false" validateRequest="false"%>
 
 <!DOCTYPE html>
 

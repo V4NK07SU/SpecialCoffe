@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="verificar.aspx.cs" Inherits="SpecialCoffe.verificar" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="verificar.aspx.cs" Inherits="SpecialCoffe.verificar"  enableEventValidation="false" validateRequest="false" %>
 
 <!DOCTYPE html>
 

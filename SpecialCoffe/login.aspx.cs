@@ -30,7 +30,7 @@ namespace SpecialCoffe
             {
                 Session["usuario"] = dvSql[0].DataView[0];
                 Session["usuario"] = dvSql[0].Row[0];
-                Response.Redirect("pagina2.aspx");
+                Response.Redirect("logCustomer/index.aspx");
             }
 
 

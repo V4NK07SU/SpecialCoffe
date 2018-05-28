@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Shop.aspx.cs" Inherits="SpecialCoffe.logbuyer.Shop" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Shop.aspx.cs" Inherits="SpecialCoffe.logbuyer.Shop"  enableEventValidation="false" validateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -82,23 +82,36 @@
 									<img src="/../images/pexels.jpeg" alt="IMG-PRODUCT">
 
 									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
+										<a href="Shop_detail.aspx" class="block2-btn-addwishlist hov-pointer trans-0-4">
 											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
 											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
 										</a>
-
+									
 										<div class="block2-btn-addcart w-size1 trans-0-4">
 											<!-- Button -->
 											<button class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
-												Añadir Compra
+												Ver 
+
 											</button>
 										</div>
 									</div>
 								</div>
 
 								<div class="block2-txt p-t-20">
-									<a href="product-detail.html" class="block2-name dis-block s-text3 p-b-5">
-										Cafe Granulado
+									<a href="Shop_detail.aspx" class="block2-name dis-block s-text3 p-b-5">
+											<%--  --%>
+										<h4 class="product-detail-name m-text16 p-b-13">
+
+
+											<asp:Label ID="lblNombreFinca" runat="server" Text=""></asp:Label>
+										</h4>
+
+										<p class="s-text8 p-t-10">
+											<asp:Label ID="lblcaracteristicas" runat="server" Text=""></asp:Label>
+										</p>
+
+										<%--  --%>
+										
 									</a>
 								</div>
 							</div>

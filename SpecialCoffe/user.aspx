@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user.aspx.cs" Inherits="SpecialCoffe.user" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="user.aspx.cs" Inherits="SpecialCoffe.user"  enableEventValidation="false" validateRequest="false" %>
 
 <!DOCTYPE html>
 

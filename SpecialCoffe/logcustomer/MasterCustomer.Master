@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterCustomer.master.cs" Inherits="SpecialCoffe.logcustomer.MasterCustomer" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterCustomer.master.cs" Inherits="SpecialCoffe.logcustomer.MasterCustomer"   %>
 
 
 <!DOCTYPE html>
@@ -43,6 +43,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body class="animsition">
+	<form  runat="server">
 
 	<!-- Header -->
 	<header class="header1">
@@ -64,13 +65,7 @@
 						contacto@sci.com
 					</span>
 
-					<div class="topbar-language rs1-select2">
-						<select class="selection-1" name="time">
-							<option>USD</option>
-							<option>EUR</option>
-							<option>PESO</option>
-						</select>
-					</div>
+					
 				</div>
 			</div>
 
@@ -123,10 +118,17 @@
 							</li>
 							
 				</ul>
-					<span class="linedivide1"></span>
-					<a href="trans.aspx" class="header-wrapicon1 dis-block">
+					<%--<span class="linedivide1"></span>
+					<a href="../trans.aspx" class="header-wrapicon1 dis-block">
 						<img src="/../images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-					</a>
+					</a>--%>
+					<span class="linedivide1"></span>
+						<ul>
+							<li>
+								<asp:Button ID="btncerrar" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4" runat="server" Text="Cerrar Sesion" OnClick="btncerrar_Click" />
+
+							</li>
+						</ul>
 
 					
 				</div>
@@ -402,6 +404,6 @@
 
 <!--===============================================================================================-->
 	<script src="/../js/main.js"></script>
-
+	</form>
 </body>
 </html>

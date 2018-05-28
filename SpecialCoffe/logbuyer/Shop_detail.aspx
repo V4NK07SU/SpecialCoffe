@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Shop_detail.aspx.cs" Inherits="SpecialCoffe.logbuyer.Shop_detail" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/logbuyer/MasterBuyer.Master" AutoEventWireup="true" CodeBehind="Shop_detail.aspx.cs" Inherits="SpecialCoffe.logbuyer.Shop_detail"  enableEventValidation="false" validateRequest="false" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -82,7 +82,7 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="about.html">Nosotros</a>
+						<a href="/../about.aspx">Nosotros</a>
 					</li>
 
 					<li class="item-menu-mobile">
@@ -104,6 +104,7 @@
 					<div class="slick3">
 						<div class="item-slick3" data-thumb="/../images/296888.jpeg">
 							<div class="wrap-pic-w">
+								<%--<asp:Image ID="ImagePro" runat="server" />--%>
 								<img src="/../images/photo-296888.jpeg" alt="IMG-PRODUCT">
 							</div>
 						</div>
@@ -115,8 +116,7 @@
 			<%--  --%>
 			<div class="w-size14 p-t-30 respon5">
 				<h4 class="product-detail-name m-text16 p-b-13">
-
-
+					
 					<asp:Label ID="lblNombreFinca" runat="server" Text=""></asp:Label>
 				</h4>				
 
@@ -149,9 +149,11 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
+							Municipio:&nbsp;
 							<asp:Label ID="lblmunicipio" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
+							Departamento:&nbsp;
 							<asp:Label ID="lbldepartamento" runat="server" Text=""></asp:Label>
 							</p>
 					</div>
@@ -166,15 +168,19 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
+							Prueba de Taza :&nbsp;
 							<asp:Label ID="lbltaza" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
+							Altura del cultivo(msnm):&nbsp;
 							<asp:Label ID="lblaltura" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
+							Variedad:&nbsp;
 							<asp:Label ID="lblvariedad" runat="server" Text=""></asp:Label>
 							</p>
 						<p class="s-text8">
+							Cantidad del producto(kg);&nbsp;
 					<asp:Label ID="lblcantidad" runat="server" Text=""></asp:Label>
 						</p>
 					</div>
@@ -190,15 +196,19 @@
 
 					<div class="dropdown-content dis-none p-t-15 p-b-23">
 						<p class="s-text8">
+							Nombre:&nbsp;
 							<asp:Label ID="lblnombre" runat="server" Text="Label"></asp:Label>
 							</p>
 						<p class="s-text8">
+							Apellido:&nbsp;
 							<asp:Label ID="lblapellido" runat="server" Text="Label"></asp:Label>
 							</p>
 						<p class="s-text8">
+							Telefono:&nbsp;
 							<asp:Label ID="lbltel" runat="server" Text="Label"></asp:Label>
 							</p>
 						<p class="s-text8">
+							Email:&nbsp;
 							<asp:Label ID="lblemail" runat="server" Text="Label"></asp:Label>
 							</p>
 					</div>
