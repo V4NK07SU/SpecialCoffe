@@ -73,10 +73,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="cafeteras.aspx" />
-
     <Content Include="Contacto.aspx" />
+    <Content Include="css1\main.css" />
+    <Content Include="css1\util.css" />
+    <Content Include="css2\main.css" />
+    <Content Include="css2\util.css" />
+    <Content Include="css3\main.css" />
+    <Content Include="css3\util.css" />
+    <Content Include="css4\main.css" />
+    <Content Include="css4\util.css" />
     <Content Include="js\jquery.js" />
-
     <Content Include="logbuyer\About.aspx" />
     <Content Include="logbuyer\Blog.aspx" />
     <Content Include="logbuyer\Blog_Barista.aspx" />
@@ -241,8 +247,9 @@
     <Content Include="logcustomer\index.aspx" />
     <Content Include="logueoRegistro.aspx" />
     <Content Include="logueo.aspx" />
-    <Content Include="logueoComprador.aspx" />
-    <Content Include="logueoVendedor.aspx" />
+    <Content Include="logueo_.aspx" />
+    <Content Include="registroVende.aspx" />
+    <Content Include="registroEmpre.aspx" />
     <Content Include="Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
@@ -3280,19 +3287,26 @@
     <Compile Include="logueo.aspx.designer.cs">
       <DependentUpon>logueo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="logueoComprador.aspx.cs">
-      <DependentUpon>logueoComprador.aspx</DependentUpon>
+    <Compile Include="logueo_.aspx.cs">
+      <DependentUpon>logueo_.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="logueoComprador.aspx.designer.cs">
-      <DependentUpon>logueoComprador.aspx</DependentUpon>
+    <Compile Include="logueo_.aspx.designer.cs">
+      <DependentUpon>logueo_.aspx</DependentUpon>
     </Compile>
-    <Compile Include="logueoVendedor.aspx.cs">
-      <DependentUpon>logueoVendedor.aspx</DependentUpon>
+    <Compile Include="registroVende.aspx.cs">
+      <DependentUpon>registroVende.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="logueoVendedor.aspx.designer.cs">
-      <DependentUpon>logueoVendedor.aspx</DependentUpon>
+    <Compile Include="registroVende.aspx.designer.cs">
+      <DependentUpon>registroVende.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registroEmpre.aspx.cs">
+      <DependentUpon>registroEmpre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registroEmpre.aspx.designer.cs">
+      <DependentUpon>registroEmpre.aspx</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>

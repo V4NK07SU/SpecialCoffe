@@ -7,15 +7,14 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 using System.Data;
 
-
 namespace SpecialCoffe
 {
-    public partial class logueo : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class logueo_ : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
+		}
 
 		protected void btnContinuar_Click(object sender, EventArgs e)
 		{
@@ -30,7 +29,7 @@ namespace SpecialCoffe
 			{
 				Session["usuario"] = dvSql[0].DataView[0];
 				Session["usuario"] = dvSql[0].Row[0];
-				Response.Redirect("logCustomer/index.aspx");
+				Response.Redirect("logbuyer/index.aspx");
 			}
 		}
 	}

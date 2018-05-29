@@ -1,32 +1,31 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="logueo.aspx.cs" Inherits="SpecialCoffe.logueo" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="logueo_.aspx.cs" Inherits="SpecialCoffe.logueo_" %>
 
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>Login V1</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 <!--===============================================================================================-->	
 	<link rel="icon" type="image1/png" href="images1/icons/favicon.ico"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor1/bootstrap/css/bootstrap.min.css"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="/fonts1/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/fonts1/font-awesome-4.7.0/css/font-awesome.min.css"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor01/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor01/animate/animate.css"/>
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor1/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor1/css-hamburgers/hamburgers.min.css"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor1/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor1/select2/select2.min.css"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css1/util.css">
-	<link rel="stylesheet" type="text/css" href="css1/main.css">
+	<link rel="stylesheet" type="text/css" href="css1/util.css"/>
+	<link rel="stylesheet" type="text/css" href="css1/main.css"/>
 <!--===============================================================================================-->
 </head>
 <body>
-	<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpecialCoffeInternationalConnectionString %>" EnableViewState="False" SelectCommand="sp_verificar_customer_log" SelectCommandType="StoredProcedure">
+	<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SpecialCoffeInternationalConnectionString %>" EnableViewState="False" SelectCommand="sp_verificar_buyer" SelectCommandType="StoredProcedure">
 			<SelectParameters>
 				<asp:ControlParameter ControlID="txtEmail" Name="email" PropertyName="Text" Type="String" />
 				<asp:ControlParameter ControlID="txtPass" Name="pass" PropertyName="Text" Type="String" />

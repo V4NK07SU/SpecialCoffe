@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="logueoComprador.aspx.cs" Inherits="SpecialCoffe.logueoComprador" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="registroEmpre.aspx.cs" Inherits="SpecialCoffe.logueoVendedor" %>
+
 
 
 <!DOCTYPE html>
@@ -43,7 +44,7 @@
 				
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                        <asp:TextBox ID="TextBox1" runat="server" class="input100" type="text" name="email" placeholder="Nombre"></asp:TextBox>
+                        <asp:TextBox ID="txtNombre" runat="server" class="input100" type="text" name="email" placeholder="Nombre"></asp:TextBox>
                         <%--//<input class="input100" type="text" name="email" placeholder="Email">--%>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -52,7 +53,17 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-                        <asp:TextBox ID="TextBox2" class="input100" type="password" name="pass" placeholder="Apellido" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtApellido" class="input100" type="password" name="pass" placeholder="Apellido" runat="server"></asp:TextBox>
+						<%--<input class="input100" type="password" name="pass" placeholder="Password">--%>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+                        <asp:TextBox ID="txtTelefono" class="input100" type="password" name="pass" placeholder="Telefono" runat="server"></asp:TextBox>
 						<%--<input class="input100" type="password" name="pass" placeholder="Password">--%>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -61,7 +72,7 @@
 					</div>
 
                     <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                        <asp:TextBox ID="TextBox3" runat="server" class="input100" type="text" name="email" placeholder="Cédula"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server" class="input100" type="text" name="email" placeholder="Email"></asp:TextBox>
                         <%--//<input class="input100" type="text" name="email" placeholder="Email">--%>
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
@@ -70,37 +81,45 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-                        <asp:TextBox ID="TextBox4" class="input100" type="password" name="pass" placeholder="Telefono" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtNit" class="input100" type="password" name="pass" placeholder="Nit" runat="server"></asp:TextBox>
 						<%--<input class="input100" type="password" name="pass" placeholder="Password">--%>
-						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
 					</div>
-
-                    <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-                        <asp:TextBox ID="TextBox5" runat="server" class="input100" type="text" name="email" placeholder="Email"></asp:TextBox>
-                        <%--//<input class="input100" type="text" name="email" placeholder="Email">--%>
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</span>
-					</div>
-
-					<div class="wrap-input100 validate-input" data-validate = "Password is required">
-                        <asp:TextBox ID="TextBox6" class="input100" type="password" name="pass" placeholder="Contraseña" runat="server"></asp:TextBox>
+                    <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                        <asp:TextBox ID="txtNombreEmpresa" class="input100" type="password" name="pass" placeholder="Nombre Empresa" runat="server"></asp:TextBox>
 						<%--<input class="input100" type="password" name="pass" placeholder="Password">--%>
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
 					</div>
 
+                    <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                        <asp:TextBox ID="txtPais" class="input100" type="password" name="pass" placeholder="Pais" runat="server"></asp:TextBox>
+						<%--<input class="input100" type="password" name="pass" placeholder="Password">--%>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Password is required">
+                        <asp:TextBox ID="txtPass" class="input100" type="password" name="pass" placeholder="Contraseña" runat="server"></asp:TextBox>
+						<%--<input class="input100" type="password" name="pass" placeholder="Password">--%>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
 
 					<div class="container-login100-form-btn">
-                        <a class="txt2" href="#">
+                     <%--  <a class="txt2" href="#">
 							Registrar
 							<i class="fa m-l-25" aria-hidden="true"></i>
-						</a>
+						</a>--%>
+						
+                        <asp:Button ID="btnRegistrarme" runat="server" OnClick="btnRegistrarme_Click" Text="Registrarme" />
+					
+
                         <a class="txt2" href="logueo.aspx">
 							Iniciar Sesión
 							<i class="fa  m-l-5" aria-hidden="true"></i>

@@ -10,7 +10,7 @@
 namespace SpecialCoffe {
     
     
-    public partial class logueo {
+    public partial class logueo_ {
         
         /// <summary>
         /// Control SqlDataSource1.
